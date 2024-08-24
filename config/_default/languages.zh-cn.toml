@@ -1,22 +1,21 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
 weight = 4
-title = "Blowfish"
+title = "WOOP"
 
 [params]
   displayName = "简体中文"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo_transparent.png"
+  logo = "img/d.png"
   description = "一个强大、轻量级的 Hugo 主题。"
 
 [author]
-  name = "Blowfish"
+  name = "Louaq"
   image = "img/blowfish_logo.png"
-  headline = "一个强大、轻量级的 Hugo 主题。"
-  bio = "一个强大、轻量级的 Hugo 主题。"
+  headline = "元神启动"
+  bio = "元神启动"
   links = [
-    { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
+    { github = "https://github.com/Louaq" },
   ]

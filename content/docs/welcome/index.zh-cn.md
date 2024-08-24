@@ -19,9 +19,6 @@ Blowfish 的目标是开发一个简单且轻量级的主题。 该主题是 <a 
 Tailwind CSS 是 Blowfish 的核心，当前版本包含了最新的[Tailwind CSS version 3](https://tailwindcss.com/blog/tailwindcss-v3)。
 Tailwind CSS 带来了性能优化，并提供了一些出色的新的 CSS 特性。
 
-
-{{< youtube "TmWIrBPE6Bc" >}}
-
 ## 多语言支持
 
 这是一个高频需求，Blowfish 现在支持多语言！

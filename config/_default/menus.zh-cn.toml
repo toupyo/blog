@@ -21,31 +21,41 @@
   weight = 15
 
 [[main]]
-  name = "示例"
-  weight = 20
+	name = "标签"
+	pageRef = "tags"
+	weight = 20
 
 [[main]]
-  name = "功能示例"
-  parent = "示例"
-  pageRef = "samples"
-  weight = 16
+	name = "人工智能"
+	pageRef = "ai"
+	weight = 25
 
-[[main]]
-  name = "模板示例"
-  parent = "示例"
-  pageRef = "examples"
-  weight = 30
+#[[main]]
+#  name = "示例"
+#  weight = 20
 
-[[main]]
-  name = "部署指南"
-  parent = "示例"
-  pageRef = "guides"
-  weight = 40
+#[[main]]
+#  name = "功能示例"
+#  parent = "示例"
+#  pageRef = "samples"
+#  weight = 16
+
+#[[main]]
+#  name = "模板示例"
+#  parent = "示例"
+#  pageRef = "examples"
+#  weight = 30
+
+#[[main]]
+#  name = "部署指南"
+#  parent = "示例"
+#  pageRef = "guides"
+#  weight = 40
 
 [[main]]
   identifier = "github"
   pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
+  url = "https://github.com/Louaq"
   weight = 400
 
 
@@ -53,12 +63,12 @@
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
- [[footer]]
-   name = "标签"
-   pageRef = "tags"
-   weight = 10
+# [[footer]]
+#   name = "标签"
+#   pageRef = "tags"
+#   weight = 10
 
- [[footer]]
-   name = "作者"
-   pageRef = "authors"
-   weight = 20
+# [[footer]]
+#   name = "作者"
+#   pageRef = "authors"
+#   weight = 20
