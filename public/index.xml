@@ -2,1170 +2,1572 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>主页 on WOOP</title>
-    <link>https://toupyo.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in 主页 on WOOP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Louaq</copyright>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>n9o.xyz</title>
-      <link>https://toupyo.github.io/users/n9o.xyz/</link>
+      <link>http://localhost:1313/users/n9o.xyz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/n9o.xyz/</guid>
+      <guid>http://localhost:1313/users/n9o.xyz/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/n9o.xyz/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/n9o.xyz/feature.jpg" />
     </item>
     
     <item>
       <title>欢迎来到 Blowfish</title>
-      <link>https://toupyo.github.io/docs/welcome/</link>
+      <link>http://localhost:1313/docs/welcome/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/welcome/</guid>
+      <guid>http://localhost:1313/docs/welcome/</guid>
       <description>Blowfish 包含了大量的特性功能。 Blowfish 的目标是开发一个简单且轻量级的主题</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/welcome/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/welcome/featured.svg" />
     </item>
     
     <item>
       <title>安装和配置</title>
-      <link>https://toupyo.github.io/docs/installation/</link>
+      <link>http://localhost:1313/docs/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/installation/</guid>
+      <guid>http://localhost:1313/docs/installation/</guid>
       <description>如果想快速上手，可以按照标准的 Hugo 快速启动 文档。 更详细的安装如</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/installation/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/installation/featured.svg" />
     </item>
     
     <item>
       <title>入门指南</title>
-      <link>https://toupyo.github.io/docs/getting-started/</link>
+      <link>http://localhost:1313/docs/getting-started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/getting-started/</guid>
+      <guid>http://localhost:1313/docs/getting-started/</guid>
       <description>本节内容需要已经阅读了 安装 Blowfish 主题。 我们刚刚推出了一个 CLI 工具，</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/getting-started/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/getting-started/featured.svg" />
     </item>
     
     <item>
       <title>配置</title>
-      <link>https://toupyo.github.io/docs/configuration/</link>
+      <link>http://localhost:1313/docs/configuration/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/configuration/</guid>
+      <guid>http://localhost:1313/docs/configuration/</guid>
       <description>Blowfish 适宜个高度定制化的主题，使用到了一些 Hugo 中最新的特性来简化配</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/configuration/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/configuration/featured.svg" />
     </item>
     
     <item>
       <title>主页布局</title>
-      <link>https://toupyo.github.io/docs/homepage-layout/</link>
+      <link>http://localhost:1313/docs/homepage-layout/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/homepage-layout/</guid>
+      <guid>http://localhost:1313/docs/homepage-layout/</guid>
       <description>Blowfish 提供了一个完全灵活的主页布局。你可以选择两种主要模板，并提</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/homepage-layout/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/homepage-layout/featured.svg" />
     </item>
     
     <item>
       <title>简码</title>
-      <link>https://toupyo.github.io/docs/shortcodes/</link>
+      <link>http://localhost:1313/docs/shortcodes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/shortcodes/</guid>
+      <guid>http://localhost:1313/docs/shortcodes/</guid>
       <description>除了所有默认 Hugo 简码 之外，Blowfish 还添加了一些额外的功</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/shortcodes/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/shortcodes/featured.svg" />
     </item>
     
     <item>
       <title>Front Matter(文件头信息)</title>
-      <link>https://toupyo.github.io/docs/front-matter/</link>
+      <link>http://localhost:1313/docs/front-matter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/front-matter/</guid>
+      <guid>http://localhost:1313/docs/front-matter/</guid>
       <description>除了 Hugo 中默认的 front matter，Blowfish 主题中还添加了</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/front-matter/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/front-matter/featured.svg" />
     </item>
     
     <item>
       <title>多创作者模式</title>
-      <link>https://toupyo.github.io/docs/multi-author/</link>
+      <link>http://localhost:1313/docs/multi-author/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/multi-author/</guid>
+      <guid>http://localhost:1313/docs/multi-author/</guid>
       <description>一个网站会有多个创作者共同贡献内容，所以需要再整个网站中默认</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/multi-author/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/multi-author/featured.svg" />
     </item>
     
     <item>
       <title>局部模板(Partials)</title>
-      <link>https://toupyo.github.io/docs/partials/</link>
+      <link>http://localhost:1313/docs/partials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/partials/</guid>
+      <guid>http://localhost:1313/docs/partials/</guid>
       <description>站点分析 # Blowfish 支持了 Fathom、Google 和 Umami。F</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/partials/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/partials/featured.svg" />
     </item>
     
     <item>
       <title>缩略图</title>
-      <link>https://toupyo.github.io/docs/thumbnails/</link>
+      <link>http://localhost:1313/docs/thumbnails/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/thumbnails/</guid>
+      <guid>http://localhost:1313/docs/thumbnails/</guid>
       <description>缩略图 # Blowfish 对视觉支持进行了增强，可以让你轻松地为文章添加缩略</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/thumbnails/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/thumbnails/featured.svg" />
     </item>
     
     <item>
       <title>madoke.org</title>
-      <link>https://toupyo.github.io/users/madoke.org/</link>
+      <link>http://localhost:1313/users/madoke.org/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/madoke.org/</guid>
+      <guid>http://localhost:1313/users/madoke.org/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/madoke.org/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/madoke.org/feature.jpg" />
     </item>
     
     <item>
       <title>内容示例</title>
-      <link>https://toupyo.github.io/docs/content-examples/</link>
+      <link>http://localhost:1313/docs/content-examples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/content-examples/</guid>
+      <guid>http://localhost:1313/docs/content-examples/</guid>
       <description>如果你已经按顺序阅读了文档，那么你现在应该已经了解了 Blowfish 中所有</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/content-examples/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/content-examples/featured.svg" />
     </item>
     
     <item>
       <title>系列</title>
-      <link>https://toupyo.github.io/docs/series/</link>
+      <link>http://localhost:1313/docs/series/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/series/</guid>
+      <guid>http://localhost:1313/docs/series/</guid>
       <description>Blowfish 提供了将一组文章分组到“系列”下的功能。将文章放在系列下将</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/series/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/series/featured.svg" />
     </item>
     
     <item>
       <title>进阶自定义</title>
-      <link>https://toupyo.github.io/docs/advanced-customisation/</link>
+      <link>http://localhost:1313/docs/advanced-customisation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/advanced-customisation/</guid>
+      <guid>http://localhost:1313/docs/advanced-customisation/</guid>
       <description>您可以通过多种方式对 Blowfish 进行高级自定义。请阅读下文，了解更多可</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/advanced-customisation/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/advanced-customisation/featured.svg" />
     </item>
     
     <item>
       <title>托管和部署</title>
-      <link>https://toupyo.github.io/docs/hosting-deployment/</link>
+      <link>http://localhost:1313/docs/hosting-deployment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/hosting-deployment/</guid>
+      <guid>http://localhost:1313/docs/hosting-deployment/</guid>
       <description>有许多方法可以部署基于 Blowfish 主题的 Hugo 网站。这个主题几乎在任何部署</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/hosting-deployment/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/hosting-deployment/featured.svg" />
     </item>
     
     <item>
       <title>Firebase: 阅读量 &amp; 点赞量</title>
-      <link>https://toupyo.github.io/docs/firebase-views/</link>
+      <link>http://localhost:1313/docs/firebase-views/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/firebase-views/</guid>
+      <guid>http://localhost:1313/docs/firebase-views/</guid>
       <description>为了能够在网站中获取动态数据，我们支持了对 Firebase 的集成。这将允许</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/firebase-views/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/firebase-views/featured.svg" />
     </item>
     
     <item>
       <title>code-chimp.com</title>
-      <link>https://toupyo.github.io/users/code-chimp.com/</link>
+      <link>http://localhost:1313/users/code-chimp.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/code-chimp.com/</guid>
+      <guid>http://localhost:1313/users/code-chimp.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/code-chimp.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/code-chimp.com/feature.jpg" />
     </item>
     
     <item>
       <title>mucahitkurtlar.github.io</title>
-      <link>https://toupyo.github.io/users/mucahitkurtlar.github.io/</link>
+      <link>http://localhost:1313/users/mucahitkurtlar.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/mucahitkurtlar.github.io/</guid>
+      <guid>http://localhost:1313/users/mucahitkurtlar.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/mucahitkurtlar.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/mucahitkurtlar.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>brendanwallace.github.io</title>
-      <link>https://toupyo.github.io/users/brendanwallace.github.io/</link>
+      <link>http://localhost:1313/users/brendanwallace.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/brendanwallace.github.io/</guid>
+      <guid>http://localhost:1313/users/brendanwallace.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/brendanwallace.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/brendanwallace.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>cuttontail.blog</title>
-      <link>https://toupyo.github.io/users/cuttontail.blog/</link>
+      <link>http://localhost:1313/users/cuttontail.blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/cuttontail.blog/</guid>
+      <guid>http://localhost:1313/users/cuttontail.blog/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/cuttontail.blog/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/cuttontail.blog/feature.jpg" />
     </item>
     
     <item>
       <title>pmnxis.github.io</title>
-      <link>https://toupyo.github.io/users/pmnxis.github.io/</link>
+      <link>http://localhost:1313/users/pmnxis.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/pmnxis.github.io/</guid>
+      <guid>http://localhost:1313/users/pmnxis.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/pmnxis.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/pmnxis.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>ciicadalab.github.io</title>
-      <link>https://toupyo.github.io/users/ciicadalab.github.io/</link>
+      <link>http://localhost:1313/users/ciicadalab.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ciicadalab.github.io/</guid>
+      <guid>http://localhost:1313/users/ciicadalab.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ciicadalab.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ciicadalab.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>georgiancodeclub.github.io</title>
-      <link>https://toupyo.github.io/users/georgiancodeclub.github.io/</link>
+      <link>http://localhost:1313/users/georgiancodeclub.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/georgiancodeclub.github.io/</guid>
+      <guid>http://localhost:1313/users/georgiancodeclub.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/georgiancodeclub.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/georgiancodeclub.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>albertolvera.com</title>
-      <link>https://toupyo.github.io/users/albertolvera.com/</link>
+      <link>http://localhost:1313/users/albertolvera.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/albertolvera.com/</guid>
+      <guid>http://localhost:1313/users/albertolvera.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/albertolvera.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/albertolvera.com/feature.jpg" />
     </item>
     
     <item>
       <title>fahru.my.id</title>
-      <link>https://toupyo.github.io/users/fahru.my.id/</link>
+      <link>http://localhost:1313/users/fahru.my.id/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/fahru.my.id/</guid>
+      <guid>http://localhost:1313/users/fahru.my.id/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/fahru.my.id/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/fahru.my.id/feature.jpg" />
     </item>
     
     <item>
       <title>loisvelasco.is-a.dev</title>
-      <link>https://toupyo.github.io/users/loisvelasco.is-a.dev/</link>
+      <link>http://localhost:1313/users/loisvelasco.is-a.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/loisvelasco.is-a.dev/</guid>
+      <guid>http://localhost:1313/users/loisvelasco.is-a.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/loisvelasco.is-a.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/loisvelasco.is-a.dev/feature.jpg" />
     </item>
     
     <item>
       <title>omarohn.de</title>
-      <link>https://toupyo.github.io/users/omarohn.de/</link>
+      <link>http://localhost:1313/users/omarohn.de/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/omarohn.de/</guid>
+      <guid>http://localhost:1313/users/omarohn.de/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/omarohn.de/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/omarohn.de/feature.jpg" />
     </item>
     
     <item>
       <title>insidemordecai.com</title>
-      <link>https://toupyo.github.io/users/insidemordecai.com/</link>
+      <link>http://localhost:1313/users/insidemordecai.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/insidemordecai.com/</guid>
+      <guid>http://localhost:1313/users/insidemordecai.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/insidemordecai.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/insidemordecai.com/feature.jpg" />
     </item>
     
     <item>
       <title>blastomussa.dev</title>
-      <link>https://toupyo.github.io/users/blastomussa.dev/</link>
+      <link>http://localhost:1313/users/blastomussa.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/blastomussa.dev/</guid>
+      <guid>http://localhost:1313/users/blastomussa.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/blastomussa.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/blastomussa.dev/feature.jpg" />
     </item>
     
     <item>
       <title>cdell.io</title>
-      <link>https://toupyo.github.io/users/cdell.io/</link>
+      <link>http://localhost:1313/users/cdell.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/cdell.io/</guid>
+      <guid>http://localhost:1313/users/cdell.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/cdell.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/cdell.io/feature.jpg" />
     </item>
     
     <item>
       <title>jam.dsg.li</title>
-      <link>https://toupyo.github.io/users/jam.dsg.li/</link>
+      <link>http://localhost:1313/users/jam.dsg.li/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/jam.dsg.li/</guid>
+      <guid>http://localhost:1313/users/jam.dsg.li/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/jam.dsg.li/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/jam.dsg.li/feature.jpg" />
     </item>
     
     <item>
       <title>priyakdey.com</title>
-      <link>https://toupyo.github.io/users/priyakdey.com/</link>
+      <link>http://localhost:1313/users/priyakdey.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/priyakdey.com/</guid>
+      <guid>http://localhost:1313/users/priyakdey.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/priyakdey.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/priyakdey.com/feature.jpg" />
     </item>
     
     <item>
       <title>sdehm.dev</title>
-      <link>https://toupyo.github.io/users/sdehm.dev/</link>
+      <link>http://localhost:1313/users/sdehm.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/sdehm.dev/</guid>
+      <guid>http://localhost:1313/users/sdehm.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/sdehm.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/sdehm.dev/feature.jpg" />
     </item>
     
     <item>
       <title>dizzytech.de</title>
-      <link>https://toupyo.github.io/users/dizzytech.de/</link>
+      <link>http://localhost:1313/users/dizzytech.de/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/dizzytech.de/</guid>
+      <guid>http://localhost:1313/users/dizzytech.de/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/dizzytech.de/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/dizzytech.de/feature.jpg" />
     </item>
     
     <item>
       <title>alejandro-ao.com</title>
-      <link>https://toupyo.github.io/users/alejandro-ao.com/</link>
+      <link>http://localhost:1313/users/alejandro-ao.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/alejandro-ao.com/</guid>
+      <guid>http://localhost:1313/users/alejandro-ao.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/alejandro-ao.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/alejandro-ao.com/feature.jpg" />
     </item>
     
     <item>
       <title>adir1.com</title>
-      <link>https://toupyo.github.io/users/adir1.com/</link>
+      <link>http://localhost:1313/users/adir1.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/adir1.com/</guid>
+      <guid>http://localhost:1313/users/adir1.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/adir1.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/adir1.com/feature.jpg" />
     </item>
     
     <item>
       <title>niklas-hartmann-dev.de</title>
-      <link>https://toupyo.github.io/users/niklas-hartmann-dev.de/</link>
+      <link>http://localhost:1313/users/niklas-hartmann-dev.de/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/niklas-hartmann-dev.de/</guid>
+      <guid>http://localhost:1313/users/niklas-hartmann-dev.de/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/niklas-hartmann-dev.de/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/niklas-hartmann-dev.de/feature.jpg" />
     </item>
     
     <item>
       <title>blog.muffn.io</title>
-      <link>https://toupyo.github.io/users/blog.muffn.io/</link>
+      <link>http://localhost:1313/users/blog.muffn.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/blog.muffn.io/</guid>
+      <guid>http://localhost:1313/users/blog.muffn.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/blog.muffn.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/blog.muffn.io/feature.jpg" />
     </item>
     
     <item>
       <title>nick.bouwhuis.net</title>
-      <link>https://toupyo.github.io/users/nick.bouwhuis.net/</link>
+      <link>http://localhost:1313/users/nick.bouwhuis.net/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/nick.bouwhuis.net/</guid>
+      <guid>http://localhost:1313/users/nick.bouwhuis.net/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/nick.bouwhuis.net/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/nick.bouwhuis.net/feature.jpg" />
     </item>
     
     <item>
       <title>vividscc.com</title>
-      <link>https://toupyo.github.io/users/vividscc.com/</link>
+      <link>http://localhost:1313/users/vividscc.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/vividscc.com/</guid>
+      <guid>http://localhost:1313/users/vividscc.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/vividscc.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/vividscc.com/feature.jpg" />
     </item>
     
     <item>
       <title>mariuskimmina.com</title>
-      <link>https://toupyo.github.io/users/mariuskimmina.com/</link>
+      <link>http://localhost:1313/users/mariuskimmina.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/mariuskimmina.com/</guid>
+      <guid>http://localhost:1313/users/mariuskimmina.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/mariuskimmina.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/mariuskimmina.com/feature.jpg" />
     </item>
     
     <item>
       <title>technicat.com</title>
-      <link>https://toupyo.github.io/users/technicat.com/</link>
+      <link>http://localhost:1313/users/technicat.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/technicat.com/</guid>
+      <guid>http://localhost:1313/users/technicat.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/technicat.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/technicat.com/feature.jpg" />
     </item>
     
     <item>
       <title>fugugames.com</title>
-      <link>https://toupyo.github.io/users/fugugames.com/</link>
+      <link>http://localhost:1313/users/fugugames.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/fugugames.com/</guid>
+      <guid>http://localhost:1313/users/fugugames.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/fugugames.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/fugugames.com/feature.jpg" />
     </item>
     
     <item>
       <title>hyperbowl3d.com</title>
-      <link>https://toupyo.github.io/users/hyperbowl3d.com/</link>
+      <link>http://localhost:1313/users/hyperbowl3d.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/hyperbowl3d.com/</guid>
+      <guid>http://localhost:1313/users/hyperbowl3d.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/hyperbowl3d.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/hyperbowl3d.com/feature.jpg" />
     </item>
     
     <item>
       <title>talkdimsum.com</title>
-      <link>https://toupyo.github.io/users/talkdimsum.com/</link>
+      <link>http://localhost:1313/users/talkdimsum.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/talkdimsum.com/</guid>
+      <guid>http://localhost:1313/users/talkdimsum.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/talkdimsum.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/talkdimsum.com/feature.jpg" />
     </item>
     
     <item>
       <title>alanctanner.com</title>
-      <link>https://toupyo.github.io/users/alanctanner.com/</link>
+      <link>http://localhost:1313/users/alanctanner.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/alanctanner.com/</guid>
+      <guid>http://localhost:1313/users/alanctanner.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/alanctanner.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/alanctanner.com/feature.jpg" />
     </item>
     
     <item>
       <title>rdgo.dev</title>
-      <link>https://toupyo.github.io/users/rdgo.dev/</link>
+      <link>http://localhost:1313/users/rdgo.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/rdgo.dev/</guid>
+      <guid>http://localhost:1313/users/rdgo.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/rdgo.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/rdgo.dev/feature.jpg" />
     </item>
     
     <item>
       <title>clemsau.com</title>
-      <link>https://toupyo.github.io/users/clemsau.com/</link>
+      <link>http://localhost:1313/users/clemsau.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/clemsau.com/</guid>
+      <guid>http://localhost:1313/users/clemsau.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/clemsau.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/clemsau.com/feature.jpg" />
     </item>
     
     <item>
       <title>lelouvincx.github.io</title>
-      <link>https://toupyo.github.io/users/lelouvincx.github.io/</link>
+      <link>http://localhost:1313/users/lelouvincx.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/lelouvincx.github.io/</guid>
+      <guid>http://localhost:1313/users/lelouvincx.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/lelouvincx.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/lelouvincx.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>weaxsey.org</title>
-      <link>https://toupyo.github.io/users/weaxsey.org/</link>
+      <link>http://localhost:1313/users/weaxsey.org/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/weaxsey.org/</guid>
+      <guid>http://localhost:1313/users/weaxsey.org/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/weaxsey.org/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/weaxsey.org/feature.jpg" />
     </item>
     
     <item>
       <title>nikarashihatsu.github.io</title>
-      <link>https://toupyo.github.io/users/nikarashihatsu.github.io/</link>
+      <link>http://localhost:1313/users/nikarashihatsu.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/nikarashihatsu.github.io/</guid>
+      <guid>http://localhost:1313/users/nikarashihatsu.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/nikarashihatsu.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/nikarashihatsu.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>blog.enmanuelmoreira.com</title>
-      <link>https://toupyo.github.io/users/blog.enmanuelmoreira.com/</link>
+      <link>http://localhost:1313/users/blog.enmanuelmoreira.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/blog.enmanuelmoreira.com/</guid>
+      <guid>http://localhost:1313/users/blog.enmanuelmoreira.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/blog.enmanuelmoreira.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/blog.enmanuelmoreira.com/feature.jpg" />
     </item>
     
     <item>
       <title>halcyonstraits.com</title>
-      <link>https://toupyo.github.io/users/halcyonstraits.com/</link>
+      <link>http://localhost:1313/users/halcyonstraits.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/halcyonstraits.com/</guid>
+      <guid>http://localhost:1313/users/halcyonstraits.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/halcyonstraits.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/halcyonstraits.com/feature.jpg" />
     </item>
     
     <item>
       <title>50-nuances-octets.fr</title>
-      <link>https://toupyo.github.io/users/50-nuances-octets.fr/</link>
+      <link>http://localhost:1313/users/50-nuances-octets.fr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/50-nuances-octets.fr/</guid>
+      <guid>http://localhost:1313/users/50-nuances-octets.fr/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/50-nuances-octets.fr/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/50-nuances-octets.fr/feature.jpg" />
     </item>
     
     <item>
       <title>marupanda.art/marucomics</title>
-      <link>https://toupyo.github.io/users/marupanda.art-marucomics/</link>
+      <link>http://localhost:1313/users/marupanda.art-marucomics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/marupanda.art-marucomics/</guid>
+      <guid>http://localhost:1313/users/marupanda.art-marucomics/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/marupanda.art-marucomics/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/marupanda.art-marucomics/feature.jpg" />
     </item>
     
     <item>
       <title>m3upt.com</title>
-      <link>https://toupyo.github.io/users/m3upt.com/</link>
+      <link>http://localhost:1313/users/m3upt.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/m3upt.com/</guid>
+      <guid>http://localhost:1313/users/m3upt.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/m3upt.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/m3upt.com/feature.jpg" />
     </item>
     
     <item>
       <title>pacochan.net</title>
-      <link>https://toupyo.github.io/users/pacochan.net/</link>
+      <link>http://localhost:1313/users/pacochan.net/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/pacochan.net/</guid>
+      <guid>http://localhost:1313/users/pacochan.net/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/pacochan.net/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/pacochan.net/feature.jpg" />
     </item>
     
     <item>
       <title>jundimubarok.com</title>
-      <link>https://toupyo.github.io/users/jundimubarok.com/</link>
+      <link>http://localhost:1313/users/jundimubarok.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/jundimubarok.com/</guid>
+      <guid>http://localhost:1313/users/jundimubarok.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/jundimubarok.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/jundimubarok.com/feature.jpg" />
     </item>
     
     <item>
       <title>vkmki001.github.io</title>
-      <link>https://toupyo.github.io/users/vkmki001.github.io/</link>
+      <link>http://localhost:1313/users/vkmki001.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/vkmki001.github.io/</guid>
+      <guid>http://localhost:1313/users/vkmki001.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/vkmki001.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/vkmki001.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>bbagwang.com</title>
-      <link>https://toupyo.github.io/users/bbagwang.com/</link>
+      <link>http://localhost:1313/users/bbagwang.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/bbagwang.com/</guid>
+      <guid>http://localhost:1313/users/bbagwang.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/bbagwang.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/bbagwang.com/feature.jpg" />
     </item>
     
     <item>
       <title>jamiemoxon.tech</title>
-      <link>https://toupyo.github.io/users/jamiemoxon.tech/</link>
+      <link>http://localhost:1313/users/jamiemoxon.tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/jamiemoxon.tech/</guid>
+      <guid>http://localhost:1313/users/jamiemoxon.tech/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/jamiemoxon.tech/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/jamiemoxon.tech/feature.jpg" />
     </item>
     
     <item>
       <title>theindiecoder.cloud</title>
-      <link>https://toupyo.github.io/users/theindiecoder.cloud/</link>
+      <link>http://localhost:1313/users/theindiecoder.cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/theindiecoder.cloud/</guid>
+      <guid>http://localhost:1313/users/theindiecoder.cloud/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/theindiecoder.cloud/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/theindiecoder.cloud/feature.jpg" />
     </item>
     
     <item>
       <title>gma.name</title>
-      <link>https://toupyo.github.io/users/gma.name/</link>
+      <link>http://localhost:1313/users/gma.name/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/gma.name/</guid>
+      <guid>http://localhost:1313/users/gma.name/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/gma.name/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/gma.name/feature.jpg" />
     </item>
     
     <item>
       <title>mayer.life</title>
-      <link>https://toupyo.github.io/users/mayer.life/</link>
+      <link>http://localhost:1313/users/mayer.life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/mayer.life/</guid>
+      <guid>http://localhost:1313/users/mayer.life/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/mayer.life/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/mayer.life/feature.jpg" />
     </item>
     
     <item>
       <title>scottmckendry.tech</title>
-      <link>https://toupyo.github.io/users/scottmckendry.tech/</link>
+      <link>http://localhost:1313/users/scottmckendry.tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/scottmckendry.tech/</guid>
+      <guid>http://localhost:1313/users/scottmckendry.tech/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/scottmckendry.tech/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/scottmckendry.tech/feature.jpg" />
     </item>
     
     <item>
       <title>adilhyz.github.io</title>
-      <link>https://toupyo.github.io/users/adilhyz.github.io/</link>
+      <link>http://localhost:1313/users/adilhyz.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/adilhyz.github.io/</guid>
+      <guid>http://localhost:1313/users/adilhyz.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/adilhyz.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/adilhyz.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>ohdmire.github.io</title>
-      <link>https://toupyo.github.io/users/ohdmire.github.io/</link>
+      <link>http://localhost:1313/users/ohdmire.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ohdmire.github.io/</guid>
+      <guid>http://localhost:1313/users/ohdmire.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ohdmire.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ohdmire.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>ricklan.photography</title>
-      <link>https://toupyo.github.io/users/ricklan.photography/</link>
+      <link>http://localhost:1313/users/ricklan.photography/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ricklan.photography/</guid>
+      <guid>http://localhost:1313/users/ricklan.photography/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ricklan.photography/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ricklan.photography/feature.jpg" />
     </item>
     
     <item>
       <title>deepumohan.com/tech</title>
-      <link>https://toupyo.github.io/users/deepumohan.com-tech/</link>
+      <link>http://localhost:1313/users/deepumohan.com-tech/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/deepumohan.com-tech/</guid>
+      <guid>http://localhost:1313/users/deepumohan.com-tech/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/deepumohan.com-tech/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/deepumohan.com-tech/feature.jpg" />
     </item>
     
     <item>
       <title>kylemalloy.com</title>
-      <link>https://toupyo.github.io/users/kylemalloy.com/</link>
+      <link>http://localhost:1313/users/kylemalloy.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/kylemalloy.com/</guid>
+      <guid>http://localhost:1313/users/kylemalloy.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/kylemalloy.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/kylemalloy.com/feature.jpg" />
     </item>
     
     <item>
       <title>joush007.github.io</title>
-      <link>https://toupyo.github.io/users/joush007.github.io/</link>
+      <link>http://localhost:1313/users/joush007.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/joush007.github.io/</guid>
+      <guid>http://localhost:1313/users/joush007.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/joush007.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/joush007.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>rejowski.xyz</title>
-      <link>https://toupyo.github.io/users/rejowski.xyz/</link>
+      <link>http://localhost:1313/users/rejowski.xyz/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/rejowski.xyz/</guid>
+      <guid>http://localhost:1313/users/rejowski.xyz/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/rejowski.xyz/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/rejowski.xyz/feature.jpg" />
     </item>
     
     <item>
       <title>v-y-s.com</title>
-      <link>https://toupyo.github.io/users/v-y-s.com/</link>
+      <link>http://localhost:1313/users/v-y-s.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/v-y-s.com/</guid>
+      <guid>http://localhost:1313/users/v-y-s.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/v-y-s.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/v-y-s.com/feature.jpg" />
     </item>
     
     <item>
       <title>blog.stonegarden.dev</title>
-      <link>https://toupyo.github.io/users/blog.stonegarden.dev/</link>
+      <link>http://localhost:1313/users/blog.stonegarden.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/blog.stonegarden.dev/</guid>
+      <guid>http://localhost:1313/users/blog.stonegarden.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/blog.stonegarden.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/blog.stonegarden.dev/feature.jpg" />
     </item>
     
     <item>
       <title>renaud.warnotte.be</title>
-      <link>https://toupyo.github.io/users/renaud.warnotte.be/</link>
+      <link>http://localhost:1313/users/renaud.warnotte.be/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/renaud.warnotte.be/</guid>
+      <guid>http://localhost:1313/users/renaud.warnotte.be/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/renaud.warnotte.be/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/renaud.warnotte.be/feature.jpg" />
     </item>
     
     <item>
       <title>BoringTech.net</title>
-      <link>https://toupyo.github.io/users/boringtech.net/</link>
+      <link>http://localhost:1313/users/boringtech.net/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/boringtech.net/</guid>
+      <guid>http://localhost:1313/users/boringtech.net/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/boringtech.net/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/boringtech.net/feature.jpg" />
     </item>
     
     <item>
       <title>technicaldc.github.io</title>
-      <link>https://toupyo.github.io/users/technicaldc.github.io/</link>
+      <link>http://localhost:1313/users/technicaldc.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/technicaldc.github.io/</guid>
+      <guid>http://localhost:1313/users/technicaldc.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/technicaldc.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/technicaldc.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>alxhslm.github.io</title>
-      <link>https://toupyo.github.io/users/alxhslm.github.io/</link>
+      <link>http://localhost:1313/users/alxhslm.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/alxhslm.github.io/</guid>
+      <guid>http://localhost:1313/users/alxhslm.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/alxhslm.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/alxhslm.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>the-maze.net</title>
-      <link>https://toupyo.github.io/users/the-maze.net/</link>
+      <link>http://localhost:1313/users/the-maze.net/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/the-maze.net/</guid>
+      <guid>http://localhost:1313/users/the-maze.net/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/the-maze.net/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/the-maze.net/feature.jpg" />
     </item>
     
     <item>
       <title>DXPetti.com</title>
-      <link>https://toupyo.github.io/users/dxpetti.com/</link>
+      <link>http://localhost:1313/users/dxpetti.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/dxpetti.com/</guid>
+      <guid>http://localhost:1313/users/dxpetti.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/dxpetti.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/dxpetti.com/feature.jpg" />
     </item>
     
     <item>
       <title>asterisk.lol</title>
-      <link>https://toupyo.github.io/users/asterisk.lol/</link>
+      <link>http://localhost:1313/users/asterisk.lol/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/asterisk.lol/</guid>
+      <guid>http://localhost:1313/users/asterisk.lol/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/asterisk.lol/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/asterisk.lol/feature.jpg" />
     </item>
     
     <item>
       <title>notes.bluesdriveamelia.space</title>
-      <link>https://toupyo.github.io/users/notes.bluesdriveamelia.space/</link>
+      <link>http://localhost:1313/users/notes.bluesdriveamelia.space/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/notes.bluesdriveamelia.space/</guid>
+      <guid>http://localhost:1313/users/notes.bluesdriveamelia.space/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/notes.bluesdriveamelia.space/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/notes.bluesdriveamelia.space/feature.jpg" />
     </item>
     
     <item>
       <title>ekwska.com</title>
-      <link>https://toupyo.github.io/users/ekwska.com/</link>
+      <link>http://localhost:1313/users/ekwska.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ekwska.com/</guid>
+      <guid>http://localhost:1313/users/ekwska.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ekwska.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ekwska.com/feature.jpg" />
     </item>
     
     <item>
       <title>todreamr.github.io</title>
-      <link>https://toupyo.github.io/users/todreamr.github.io/</link>
+      <link>http://localhost:1313/users/todreamr.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/todreamr.github.io/</guid>
+      <guid>http://localhost:1313/users/todreamr.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/todreamr.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/todreamr.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>aakashnand.com</title>
-      <link>https://toupyo.github.io/users/aakashnand.com/</link>
+      <link>http://localhost:1313/users/aakashnand.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/aakashnand.com/</guid>
+      <guid>http://localhost:1313/users/aakashnand.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/aakashnand.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/aakashnand.com/feature.jpg" />
     </item>
     
     <item>
       <title>innerknowing</title>
-      <link>https://toupyo.github.io/users/innerknowing/</link>
+      <link>http://localhost:1313/users/innerknowing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/innerknowing/</guid>
+      <guid>http://localhost:1313/users/innerknowing/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/innerknowing/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/innerknowing/feature.jpg" />
     </item>
     
     <item>
       <title>Mare_Infinitus</title>
-      <link>https://toupyo.github.io/users/mare_infinitus/</link>
+      <link>http://localhost:1313/users/mare_infinitus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/mare_infinitus/</guid>
+      <guid>http://localhost:1313/users/mare_infinitus/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/mare_infinitus/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/mare_infinitus/feature.jpg" />
     </item>
     
     <item>
       <title>karlukle.site</title>
-      <link>https://toupyo.github.io/users/karlukle.site/</link>
+      <link>http://localhost:1313/users/karlukle.site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/karlukle.site/</guid>
+      <guid>http://localhost:1313/users/karlukle.site/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/karlukle.site/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/karlukle.site/feature.jpg" />
     </item>
     
     <item>
       <title>Adam Madej - Gameplay Animator</title>
-      <link>https://toupyo.github.io/users/adam-madej---gameplay-animator/</link>
+      <link>http://localhost:1313/users/adam-madej---gameplay-animator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/adam-madej---gameplay-animator/</guid>
+      <guid>http://localhost:1313/users/adam-madej---gameplay-animator/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/adam-madej---gameplay-animator/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/adam-madej---gameplay-animator/feature.jpg" />
     </item>
     
     <item>
       <title>eallion.com</title>
-      <link>https://toupyo.github.io/users/eallion.com/</link>
+      <link>http://localhost:1313/users/eallion.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/eallion.com/</guid>
+      <guid>http://localhost:1313/users/eallion.com/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/eallion.com/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/eallion.com/feature.jpg" />
     </item>
     
     <item>
       <title>Synaptic Sugar</title>
-      <link>https://toupyo.github.io/users/synaptic-sugar/</link>
+      <link>http://localhost:1313/users/synaptic-sugar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/synaptic-sugar/</guid>
+      <guid>http://localhost:1313/users/synaptic-sugar/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/synaptic-sugar/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/synaptic-sugar/feature.jpg" />
     </item>
     
     <item>
       <title>michaeldorner.de</title>
-      <link>https://toupyo.github.io/users/michaeldorner.de/</link>
+      <link>http://localhost:1313/users/michaeldorner.de/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/michaeldorner.de/</guid>
+      <guid>http://localhost:1313/users/michaeldorner.de/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/michaeldorner.de/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/michaeldorner.de/feature.jpg" />
     </item>
     
     <item>
       <title>Ignacio Conde</title>
-      <link>https://toupyo.github.io/users/ignacio-conde/</link>
+      <link>http://localhost:1313/users/ignacio-conde/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ignacio-conde/</guid>
+      <guid>http://localhost:1313/users/ignacio-conde/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ignacio-conde/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ignacio-conde/feature.jpg" />
     </item>
     
     <item>
       <title>MEM v ENNBEE</title>
-      <link>https://toupyo.github.io/users/mem-v-ennbee/</link>
+      <link>http://localhost:1313/users/mem-v-ennbee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/mem-v-ennbee/</guid>
+      <guid>http://localhost:1313/users/mem-v-ennbee/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/mem-v-ennbee/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/mem-v-ennbee/feature.jpg" />
     </item>
     
     <item>
       <title>Joshua Blais</title>
-      <link>https://toupyo.github.io/users/joshua-blais/</link>
+      <link>http://localhost:1313/users/joshua-blais/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/joshua-blais/</guid>
+      <guid>http://localhost:1313/users/joshua-blais/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/joshua-blais/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/joshua-blais/feature.jpg" />
     </item>
     
     <item>
       <title>Beauty Formulation</title>
-      <link>https://toupyo.github.io/users/beauty-formulation/</link>
+      <link>http://localhost:1313/users/beauty-formulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/beauty-formulation/</guid>
+      <guid>http://localhost:1313/users/beauty-formulation/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/beauty-formulation/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/beauty-formulation/feature.jpg" />
     </item>
     
     <item>
       <title>Middle of Nowhere</title>
-      <link>https://toupyo.github.io/users/middle-of-nowhere/</link>
+      <link>http://localhost:1313/users/middle-of-nowhere/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/middle-of-nowhere/</guid>
+      <guid>http://localhost:1313/users/middle-of-nowhere/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/middle-of-nowhere/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/middle-of-nowhere/feature.jpg" />
     </item>
     
     <item>
       <title>UmmIt - Blog</title>
-      <link>https://toupyo.github.io/users/ummit---blog/</link>
+      <link>http://localhost:1313/users/ummit---blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/ummit---blog/</guid>
+      <guid>http://localhost:1313/users/ummit---blog/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/ummit---blog/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/ummit---blog/feature.jpg" />
     </item>
     
     <item>
       <title>江ノ島エスカー</title>
-      <link>https://toupyo.github.io/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/</link>
+      <link>http://localhost:1313/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/</guid>
+      <guid>http://localhost:1313/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/%E6%B1%9F%E3%83%8E%E5%B3%B6%E3%82%A8%E3%82%B9%E3%82%AB%E3%83%BC/feature.jpg" />
     </item>
     
     <item>
       <title>Jinbo Pan - Blog</title>
-      <link>https://toupyo.github.io/users/jinbo-pan---blog/</link>
+      <link>http://localhost:1313/users/jinbo-pan---blog/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/jinbo-pan---blog/</guid>
+      <guid>http://localhost:1313/users/jinbo-pan---blog/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/jinbo-pan---blog/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/jinbo-pan---blog/feature.jpg" />
     </item>
     
     <item>
       <title>nveshaan</title>
-      <link>https://toupyo.github.io/users/nveshaan/</link>
+      <link>http://localhost:1313/users/nveshaan/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/nveshaan/</guid>
+      <guid>http://localhost:1313/users/nveshaan/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/nveshaan/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/nveshaan/feature.jpg" />
     </item>
     
     <item>
       <title>micheledinelli.github.io</title>
-      <link>https://toupyo.github.io/users/micheledinelli.github.io/</link>
+      <link>http://localhost:1313/users/micheledinelli.github.io/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/micheledinelli.github.io/</guid>
+      <guid>http://localhost:1313/users/micheledinelli.github.io/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/micheledinelli.github.io/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/micheledinelli.github.io/feature.jpg" />
     </item>
     
     <item>
       <title>kumacat.pages.dev</title>
-      <link>https://toupyo.github.io/users/kumacat.pages.dev/</link>
+      <link>http://localhost:1313/users/kumacat.pages.dev/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/users/kumacat.pages.dev/</guid>
+      <guid>http://localhost:1313/users/kumacat.pages.dev/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/users/kumacat.pages.dev/feature.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/users/kumacat.pages.dev/feature.jpg" />
     </item>
     
     <item>
       <title>使用 Blowfish和 Hugo 构建你的主页</title>
-      <link>https://toupyo.github.io/guides/202310-blowfish-tutorial/</link>
+      <link>http://localhost:1313/guides/202310-blowfish-tutorial/</link>
       <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/guides/202310-blowfish-tutorial/</guid>
+      <guid>http://localhost:1313/guides/202310-blowfish-tutorial/</guid>
       <description>一年前我创建了 Blowfish，这是一个为了打造我的个人主页而精心设计的 Hugo 主题。我决定将其作为一个开源项目。直到今天，Blowfish 已经变成了一个蓬勃发展的开源项目，在 GitHub 上拥有超过900个 star 和数百名用户。在本教程中，我将向你展示如何搭建并在几分钟内让你的网站运行起来。</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/guides/202310-blowfish-tutorial/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/202310-blowfish-tutorial/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Blowfish Tutorial</title>
+      <link>http://localhost:1313/examples/_index.it/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Tutorial</title>
+      <link>http://localhost:1313/examples/blowfish-tutorial/_index.it/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish チュートリアル</title>
+      <link>http://localhost:1313/examples/_index.ja/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish チュートリアル</title>
+      <link>http://localhost:1313/examples/blowfish-tutorial/_index.ja/</link>
+      <pubDate>Mon, 02 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-tutorial/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Tutorial - Repo</title>
+      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish チュートリアル - レポジトリ</title>
+      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lite</title>
+      <link>http://localhost:1313/examples/blowfish-lite/_index.it/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-lite/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lite</title>
+      <link>http://localhost:1313/examples/blowfish-lite/_index.ja/</link>
+      <pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-lite/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Artist</title>
+      <link>http://localhost:1313/examples/blowfish-artist/_index.it/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-artist/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Artist</title>
+      <link>http://localhost:1313/examples/blowfish-artist/_index.ja/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-artist/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lowkey</title>
+      <link>http://localhost:1313/examples/blowfish-lowkey/_index.it/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lowkey</title>
+      <link>http://localhost:1313/examples/blowfish-lowkey/_index.ja/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-lowkey/_index.ja/</guid>
+      <description></description>
+      
     </item>
     
     <item>
       <title>多作者</title>
-      <link>https://toupyo.github.io/samples/multiple-authors/</link>
+      <link>http://localhost:1313/samples/multiple-authors/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/multiple-authors/</guid>
+      <guid>http://localhost:1313/samples/multiple-authors/</guid>
       <description>如何使用多个作者的简单示例。</description>
       
     </item>
     
     <item>
       <title>缩略图</title>
-      <link>https://toupyo.github.io/samples/thumbnail_sample/</link>
+      <link>http://localhost:1313/samples/thumbnail_sample/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/thumbnail_sample/</guid>
+      <guid>http://localhost:1313/samples/thumbnail_sample/</guid>
       <description>一个展示如何在你的文章中开始使用缩略图的快速示例。</description>
       
     </item>
     
     <item>
-      <title>图标</title>
-      <link>https://toupyo.github.io/samples/icons/</link>
+      <title>Blowfish Lite - Repo</title>
+      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.it/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lite - レポジトリ</title>
+      <link>http://localhost:1313/examples/repo-blowfish-lite/_index.ja/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-lite/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Artist - Repo</title>
+      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.it/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Artist - レポジトリ</title>
+      <link>http://localhost:1313/examples/repo-blowfish-artist/_index.ja/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-artist/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lowkey - Repo</title>
+      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.it/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Lowkey - レポジトリ</title>
+      <link>http://localhost:1313/examples/repo-blowfish-lowkey/_index.ja/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/repo-blowfish-lowkey/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Template</title>
+      <link>http://localhost:1313/examples/blowfish-template/_index.it/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish Template - GitHub Repo</title>
+      <link>http://localhost:1313/examples/blowfish-template-repo/_index.it/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.it/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish テンプレート</title>
+      <link>http://localhost:1313/examples/blowfish-template/_index.ja/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish テンプレート - GitHub レポジトリ</title>
+      <link>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/examples/blowfish-template-repo/_index.ja/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Users</title>
+      <link>http://localhost:1313/users/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/icons/</guid>
+      <guid>http://localhost:1313/users/users/</guid>
+      <description>Real websites that are built with Blowfish. Check the full list in JSON format.
+Blowfish user? To add your site to this list, submit a pull request.</description>
+      
+    </item>
+    
+    <item>
+      <title>ユーザー</title>
+      <link>http://localhost:1313/users/users/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/users/users/</guid>
+      <description>Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一</description>
+      
+    </item>
+    
+    <item>
+      <title>图标</title>
+      <link>http://localhost:1313/samples/icons/</link>
+      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/samples/icons/</guid>
       <description>Blowfish 内置了许多 FontAwesome 6 中的图标。你可以使用 图标部分或者图标短代码将</description>
       
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://toupyo.github.io/samples/markdown/</link>
+      <link>http://localhost:1313/samples/markdown/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/markdown/</guid>
+      <guid>http://localhost:1313/samples/markdown/</guid>
       <description>&lt;p&gt;本文提供了可在 Blowfish 中使用的基本 Markdown 格式示例，还展示了如何加入一些基本 HTML 元素。&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>简码示例</title>
-      <link>https://toupyo.github.io/samples/rich-content/</link>
+      <link>http://localhost:1313/samples/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/rich-content/</guid>
+      <guid>http://localhost:1313/samples/rich-content/</guid>
       <description>这是&lt;strong&gt;简码&lt;/strong&gt;内容的示例。</description>
       
     </item>
     
     <item>
       <title>文本占位符</title>
-      <link>https://toupyo.github.io/samples/placeholder-text/</link>
+      <link>http://localhost:1313/samples/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/placeholder-text/</guid>
+      <guid>http://localhost:1313/samples/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>数学表达式</title>
-      <link>https://toupyo.github.io/samples/mathematical-notation/</link>
+      <link>http://localhost:1313/samples/mathematical-notation/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/mathematical-notation/</guid>
+      <guid>http://localhost:1313/samples/mathematical-notation/</guid>
       <description>&lt;p&gt;KaTeX 可用于在文章中呈现数学表达式。&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>流程图和思维导图</title>
-      <link>https://toupyo.github.io/samples/diagrams-flowcharts/</link>
+      <link>http://localhost:1313/samples/diagrams-flowcharts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/diagrams-flowcharts/</guid>
+      <guid>http://localhost:1313/samples/diagrams-flowcharts/</guid>
       <description>使用 Mermaid 可以轻松地将图表和流程图添加到文章中。</description>
       
     </item>
     
     <item>
       <title>图表</title>
-      <link>https://toupyo.github.io/samples/charts/</link>
+      <link>http://localhost:1313/samples/charts/</link>
       <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/charts/</guid>
+      <guid>http://localhost:1313/samples/charts/</guid>
       <description>Blowfish 包含 Chart.js，可实现强大的图表和数据可视化。</description>
       
     </item>
     
     <item>
       <title>Emoji 表情符号 :parachute:</title>
-      <link>https://toupyo.github.io/samples/emoji/</link>
+      <link>http://localhost:1313/samples/emoji/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/samples/emoji/</guid>
+      <guid>http://localhost:1313/samples/emoji/</guid>
       <description>📖🏞️🧗🏽🐉🧙🏽‍♂️🧚🏽👸</description>
       
     </item>
     
     <item>
       <title>使用指南模板</title>
-      <link>https://toupyo.github.io/guides/template/</link>
+      <link>http://localhost:1313/guides/template/</link>
       <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/guides/template/</guid>
+      <guid>http://localhost:1313/guides/template/</guid>
       <description>感谢您愿意为 Blowfish 社区做出贡献。 如何开始？ # 这是一篇模板文章，将</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/guides/template/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/guides/template/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>2人目のダミー作者</title>
+      <link>http://localhost:1313/authors/secondauthor/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/secondauthor/_index.ja/</guid>
+      <description>2人目のダミー作者の素晴らしいダミープロフィールです。</description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced</title>
+      <link>http://localhost:1313/tags/advanced/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/advanced/_index.it/</guid>
+      <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      
+    </item>
+    
+    <item>
+      <title>Campioni</title>
+      <link>http://localhost:1313/samples/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/samples/_index.it/</guid>
+      <description>Blowfish dà vita ai tuoi contenuti. &amp;#x1f60d;Questa sezione contiene alcune pagine demo che mostrano come Blowfish esegue il rendering di diversi tipi di contenuto. Puoi anche vedere una pagina di esempio elenco tassonomia.</description>
+      
+    </item>
+    
+    <item>
+      <title>Esempio di elenco di tassonomia degli autori</title>
+      <link>http://localhost:1313/ai/%E6%96%87%E6%A1%A3/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ai/%E6%96%87%E6%A1%A3/_index.it/</guid>
+      <description>Un rapido esempio di come iniziare a utilizzare le tassonomie degli autori nei tuoi articoli.</description>
+      
+    </item>
+    
+    <item>
+      <title>Esempio di elenco di tassonomia degli autori</title>
+      <link>http://localhost:1313/authors/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/_index.it/</guid>
+      <description>Un rapido esempio di come iniziare a utilizzare le tassonomie degli autori nei tuoi articoli.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuno Coraçao</title>
+      <link>http://localhost:1313/authors/nunocoracao/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/nunocoracao/_index.it/</guid>
+      <description>La fantastica biografia di Nuno.</description>
+      
+    </item>
+    
+    <item>
+      <title>Nuno Coração</title>
+      <link>http://localhost:1313/authors/nunocoracao/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/nunocoracao/_index.ja/</guid>
+      <description>Nuno の素晴らしいダミープロフィールです。</description>
+      
+    </item>
+    
+    <item>
+      <title>Recipes</title>
+      <link>http://localhost:1313/guides/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/guides/_index.it/</guid>
+      <description>Recipes, guides, and tutorials for BlowfishBlowfish user? To add your guide to this list, check the template.
+This section contains guides for a variety of scenarios on how to configure your theme.</description>
+      
+    </item>
+    
+    <item>
+      <title>Secondo autore fittizio</title>
+      <link>http://localhost:1313/authors/secondauthor/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/secondauthor/_index.it/</guid>
+      <description>La fantastica biografia fittizia di Dummy Second Author.</description>
+      
+    </item>
+    
+    <item>
+      <title>Tag</title>
+      <link>http://localhost:1313/tags/_index.it/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/_index.it/</guid>
+      <description>Blowfish ha il pieno supporto per le tassonomie Hugo e si adatterà a qualsiasi impostazione tassonomica. Gli elenchi di tassonomia come questo supportano anche il contenuto personalizzato da visualizzare sopra l&amp;rsquo;elenco dei termini.</description>
+      
+    </item>
+    
+    <item>
+      <title>サンプル</title>
+      <link>http://localhost:1313/samples/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/samples/_index.ja/</guid>
+      <description>Blowfish はあなたのコンテンツに命を宿します。&amp;#x1f60d; この</description>
+      
+    </item>
+    
+    <item>
+      <title>タグ</title>
+      <link>http://localhost:1313/tags/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/_index.ja/</guid>
+      <description>Blowfish は Hugo の分類システムを完全にサポートし、どのような分類システ</description>
+      
+    </item>
+    
+    <item>
+      <title>レシピ</title>
+      <link>http://localhost:1313/guides/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/guides/_index.ja/</guid>
+      <description>Blowfish のためのレシピ、ガイド、チュートリアル Blowfish ユーザーですか? こ</description>
+      
+    </item>
+    
+    <item>
+      <title>高度なタグ</title>
+      <link>http://localhost:1313/tags/advanced/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/advanced/_index.ja/</guid>
+      <description>こちらは高度なタグです。 Blowfish の他のページの様に、個々の分類条項</description>
+      
+    </item>
+    
+    <item>
+      <title>著者の分類リストの例</title>
+      <link>http://localhost:1313/ai/%E6%96%87%E6%A1%A3/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/ai/%E6%96%87%E6%A1%A3/_index.ja/</guid>
+      <description>あなたの記事でどのように著者の分類を開始するかの簡単な例です</description>
+      
+    </item>
+    
+    <item>
+      <title>著者の分類リストの例</title>
+      <link>http://localhost:1313/authors/_index.ja/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/_index.ja/</guid>
+      <description>あなたの記事でどのように著者の分類を開始するかの簡単な例です</description>
+      
     </item>
     
   </channel>

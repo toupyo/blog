@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Partials on WOOP</title>
-    <link>https://toupyo.github.io/tags/partials/</link>
+    <link>http://localhost:1313/tags/partials/</link>
     <description>Recent content in Partials on WOOP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Louaq</copyright>
-    <atom:link href="https://toupyo.github.io/tags/partials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/partials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>局部模板(Partials)</title>
-      <link>https://toupyo.github.io/docs/partials/</link>
+      <link>http://localhost:1313/docs/partials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/partials/</guid>
+      <guid>http://localhost:1313/docs/partials/</guid>
       <description>站点分析 # Blowfish 支持了 Fathom、Google 和 Umami。F</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/partials/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/partials/featured.svg" />
     </item>
     
   </channel>
