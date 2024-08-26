@@ -8,14 +8,14 @@ title = "WOOP"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/d.png"
+  logo = "img/blowfish_logo.png"
   description = "一个强大、轻量级的 Hugo 主题。"
 
 [author]
   name = "Louaq"
   image = "img/blowfish_logo.png"
-  headline = "元神启动"
-  bio = "元神启动"
+  headline = "最是人间留不住，朱颜辞镜花辞树"
+  bio = "最是人间留不住，朱颜辞镜花辞树"
   links = [
     { github = "https://github.com/Louaq" },
   ]

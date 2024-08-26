@@ -1900,6 +1900,26 @@
     />
   </url>
   <url>
+    <loc>https://toupyo.github.io/ja/ai/%E6%96%87%E6%A1%A3/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://toupyo.github.io/it/ai/%E6%96%87%E6%A1%A3/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://toupyo.github.io/ai/%E6%96%87%E6%A1%A3/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="https://toupyo.github.io/ja/ai/%E6%96%87%E6%A1%A3/"
+    />
+  </url>
+  <url>
     <loc>https://toupyo.github.io/ja/docs/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
