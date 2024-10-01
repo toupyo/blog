@@ -29,7 +29,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed-gradient" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -40,12 +40,12 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = false
+  homepageImage = "/img/ziling.jpeg" # used in: hero, and card
+  showRecent = true
   showRecentItems = 6
   showMoreLink = true
-  showMoreLinkDest = "docs"
-  cardView = false
+  showMoreLinkDest = "ai"
+  cardView = true
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 

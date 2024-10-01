@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sample on WOOP</title>
-    <link>http://localhost:1313/tags/sample/</link>
+    <link>https://toupyo.github.io/tags/sample/</link>
     <description>Recent content in Sample on WOOP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Louaq</copyright>
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/sample/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/sample/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Users</title>
-      <link>http://localhost:1313/users/users/</link>
+      <link>https://toupyo.github.io/users/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/users/users/</guid>
+      <guid>https://toupyo.github.io/users/users/</guid>
       <description>Real websites that are built with Blowfish. Check the full list in JSON format.
 Blowfish user? To add your site to this list, submit a pull request.</description>
       
@@ -21,10 +21,10 @@ Blowfish user? To add your site to this list, submit a pull request.</descripti
     
     <item>
       <title>ユーザー</title>
-      <link>http://localhost:1313/users/users/</link>
+      <link>https://toupyo.github.io/users/users/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/users/users/</guid>
+      <guid>https://toupyo.github.io/users/users/</guid>
       <description>Blowfish で構築された実際のウェブサイトです。すべてのウェブサイト一</description>
       
     </item>

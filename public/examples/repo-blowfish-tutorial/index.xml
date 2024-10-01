@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blowfish Tutorial - Repo on WOOP</title>
-    <link>http://localhost:1313/examples/repo-blowfish-tutorial/</link>
+    <link>https://toupyo.github.io/examples/repo-blowfish-tutorial/</link>
     <description>Recent content in Blowfish Tutorial - Repo on WOOP</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 Louaq</copyright>
-    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/examples/repo-blowfish-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/examples/repo-blowfish-tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blowfish Tutorial - Repo</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</link>
+      <link>https://toupyo.github.io/examples/repo-blowfish-tutorial/_index.it/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.it/</guid>
+      <guid>https://toupyo.github.io/examples/repo-blowfish-tutorial/_index.it/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Blowfish チュートリアル - レポジトリ</title>
-      <link>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</link>
+      <link>https://toupyo.github.io/examples/repo-blowfish-tutorial/_index.ja/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/examples/repo-blowfish-tutorial/_index.ja/</guid>
+      <guid>https://toupyo.github.io/examples/repo-blowfish-tutorial/_index.ja/</guid>
       <description></description>
       
     </item>
