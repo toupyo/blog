@@ -41,11 +41,11 @@ smartTOCHideUnfocusedChildren = false
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/ziling.jpeg" # used in: hero, and card
-  showRecent = true
+  showRecent = false
   showRecentItems = 6
-  showMoreLink = true
-  showMoreLinkDest = "ai"
-  cardView = true
+  showMoreLink = false
+  showMoreLinkDest = "docs"
+  cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = true # only used when layout equals background
 

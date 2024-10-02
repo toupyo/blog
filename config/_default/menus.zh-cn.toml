@@ -9,47 +9,23 @@
 # By default the menu is ordered alphabetically. This can be
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
-[[main]]
-	name = "人工智能"
-	pageRef = "ai"
-	weight = 5
 
 [[main]]
   name = "文档"
   pageRef = "docs"
-  weight = 10
+  weight = 5
 
-#[[main]]
-#  name = "简码"
-#  pageRef = "docs/shortcodes"
-#  weight = 15
+
+[[main]]
+	name = "pytorch教程"
+	pageRef = "Pytorch"
+	weight = 10
 
 [[main]]
 	name = "标签"
 	pageRef = "tags"
 	weight = 15
 
-#[[main]]
-#  name = "示例"
-#  weight = 20
-
-#[[main]]
-#  name = "功能示例"
-#  parent = "示例"
-#  pageRef = "samples"
-#  weight = 16
-
-#[[main]]
-#  name = "模板示例"
-#  parent = "示例"
-#  pageRef = "examples"
-#  weight = 30
-
-#[[main]]
-#  name = "部署指南"
-#  parent = "示例"
-#  pageRef = "guides"
-#  weight = 40
 
 [[main]]
   identifier = "github"
