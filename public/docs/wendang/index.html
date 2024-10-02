@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
-  data-auto-appearance="true"><head>
+  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   
   <meta http-equiv="content-language" content="zh-cn" />
@@ -15,7 +15,7 @@
   
   
   
-  <link rel="canonical" href="https://toupyo.github.io/docs/wendang/" />
+  <link rel="canonical" href="http://localhost:1313/docs/wendang/" />
   
   <link rel="alternate" type="application/rss+xml" href="/docs/wendang/index.xml" title="WOOP" />
   
@@ -66,17 +66,17 @@
   
   
   
-  <meta property="og:url" content="https://toupyo.github.io/docs/wendang/">
+  <meta property="og:url" content="http://localhost:1313/docs/wendang/">
   <meta property="og:site_name" content="WOOP">
   <meta property="og:title" content="安装文档">
   <meta property="og:description" content="这篇文档主要介绍《基于YOLOv8的农田病虫害检测与分析》的">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="https://toupyo.github.io/docs/wendang/featured.jpg">
+    <meta property="og:image" content="http://localhost:1313/docs/wendang/featured.jpg">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://toupyo.github.io/docs/wendang/featured.jpg">
+  <meta name="twitter:image" content="http://localhost:1313/docs/wendang/featured.jpg">
   <meta name="twitter:title" content="安装文档">
   <meta name="twitter:description" content="这篇文档主要介绍《基于YOLOv8的农田病虫害检测与分析》的">
 
@@ -572,12 +572,25 @@
     class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#anaconda虚拟环境">anaconda虚拟环境</a></li>
-    <li><a href="#使用虚拟环境">使用虚拟环境</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#针对一些报错的解决办法在这里说一下">针对一些报错的解决办法在这里说一下</a></li>
+    <li><a href="#安装python">安装Python</a></li>
+    <li><a href="#安装anaconda">安装anaconda</a></li>
+    <li><a href="#安装pycharm">安装Pycharm</a></li>
+    <li><a href="#yolov8目录结构介绍">YOLOv8目录结构介绍</a></li>
+    <li><a href="#安装项目的环境非常重要">安装项目的环境（非常重要）</a>
+      <ul>
+        <li><a href="#anaconda虚拟环境">anaconda虚拟环境</a></li>
+        <li><a href="#使用虚拟环境">使用虚拟环境</a></li>
+      </ul>
+    </li>
+    <li><a href="#训练脚本trainpy">训练脚本train.py</a></li>
+    <li><a href="#开始训练">开始训练</a></li>
+    <li><a href="#训练结果">训练结果</a></li>
+    <li><a href="#总结">总结</a></li>
+    <li><a href="#经验之谈">经验之谈</a>
+      <ul>
+        <li><a href="#针对一些报错的解决办法在这里说一下">针对一些报错的解决办法在这里说一下</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -591,12 +604,25 @@
     class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#anaconda虚拟环境">anaconda虚拟环境</a></li>
-    <li><a href="#使用虚拟环境">使用虚拟环境</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#针对一些报错的解决办法在这里说一下">针对一些报错的解决办法在这里说一下</a></li>
+    <li><a href="#安装python">安装Python</a></li>
+    <li><a href="#安装anaconda">安装anaconda</a></li>
+    <li><a href="#安装pycharm">安装Pycharm</a></li>
+    <li><a href="#yolov8目录结构介绍">YOLOv8目录结构介绍</a></li>
+    <li><a href="#安装项目的环境非常重要">安装项目的环境（非常重要）</a>
+      <ul>
+        <li><a href="#anaconda虚拟环境">anaconda虚拟环境</a></li>
+        <li><a href="#使用虚拟环境">使用虚拟环境</a></li>
+      </ul>
+    </li>
+    <li><a href="#训练脚本trainpy">训练脚本train.py</a></li>
+    <li><a href="#开始训练">开始训练</a></li>
+    <li><a href="#训练结果">训练结果</a></li>
+    <li><a href="#总结">总结</a></li>
+    <li><a href="#经验之谈">经验之谈</a>
+      <ul>
+        <li><a href="#针对一些报错的解决办法在这里说一下">针对一些报错的解决办法在这里说一下</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -676,10 +702,9 @@
       <blockquote>
 <p>这篇文档主要介绍《基于YOLOv8的农田病虫害检测与分析》的代码实现部分，整篇论文的目的主要是改进YOLOv8的网络结构，使其在检测病虫害的精度和实时性上有所提升。接下来，我将介绍如何从零开始搭建起本项目。</p>
 </blockquote>
-<p>1</p>
 
 
-<h1 class="relative group">安装Python 
+<h2 class="relative group">安装Python 
     <div id="%E5%AE%89%E8%A3%85python" class="anchor"></div>
     
     <span
@@ -688,7 +713,7 @@
             style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85python" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>到python的官方网站：<a href="https://www.python.org/" target="_blank">https://www.python.org/</a>下载，安装</p>
 <p>
   <figure>
@@ -706,7 +731,7 @@
 <p>至此，Python安装完成，接下来还需要安装anaconda，这是一个python虚拟环境，特别适合管理python的环境。</p>
 
 
-<h1 class="relative group">安装anaconda 
+<h2 class="relative group">安装anaconda 
     <div id="%E5%AE%89%E8%A3%85anaconda" class="anchor"></div>
     
     <span
@@ -715,7 +740,7 @@
             style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85anaconda" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>到anaconda的官方网站：<a href="https://www.anaconda.com/download/success" target="_blank">https://www.anaconda.com/download/success</a>下载，并安装：</p>
 <p>
   <figure>
@@ -733,7 +758,7 @@
 <p>anaconda安装完成，接下来安装pycharm，主要用来编写代码。</p>
 
 
-<h1 class="relative group">安装Pycharm 
+<h2 class="relative group">安装Pycharm 
     <div id="%E5%AE%89%E8%A3%85pycharm" class="anchor"></div>
     
     <span
@@ -742,7 +767,7 @@
             style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85pycharm" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>
   <figure>
     <img class="my-0 rounded-md" loading="lazy" src="https://yangyang666.oss-cn-chengdu.aliyuncs.com/typoraImages/Snipaste_2024-05-23_15-23-47.png" alt="" />
@@ -759,7 +784,7 @@
 <p>支持，所有的软件安装完成。</p>
 
 
-<h1 class="relative group">YOLOv8目录结构介绍 
+<h2 class="relative group">YOLOv8目录结构介绍 
     <div id="yolov8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D" class="anchor"></div>
     
     <span
@@ -768,7 +793,7 @@
             style="text-decoration-line: none !important;" href="#yolov8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E4%BB%8B%E7%BB%8D" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>首先介绍整个项目的目录：</p>
 <p>
   <figure>
@@ -805,7 +830,7 @@
 <p>以下是一个yaml文件的示例，其它的都是类似的结构，只是参数不同：</p>
 
 
-<h1 class="relative group">安装项目的环境（非常重要） 
+<h2 class="relative group">安装项目的环境（非常重要） 
     <div id="%E5%AE%89%E8%A3%85%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%8E%AF%E5%A2%83%E9%9D%9E%E5%B8%B8%E9%87%8D%E8%A6%81" class="anchor"></div>
     
     <span
@@ -814,13 +839,13 @@
             style="text-decoration-line: none !important;" href="#%E5%AE%89%E8%A3%85%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%8E%AF%E5%A2%83%E9%9D%9E%E5%B8%B8%E9%87%8D%E8%A6%81" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <blockquote>
 <p>环境配置非常重要，我当时配环境换了一周左右的时间，中间经历了各种报错，软件包不兼容的问题和显卡驱动匹配的问题，总之就是不好搞。为了方面复现工作，我已经把anaconda的环境导出为environment.yml，位于项目的根目录里面，创建虚拟环境的时候直接使用就可以</p>
 </blockquote>
 
 
-<h2 class="relative group">anaconda虚拟环境 
+<h3 class="relative group">anaconda虚拟环境 
     <div id="anaconda%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83" class="anchor"></div>
     
     <span
@@ -829,7 +854,7 @@
             style="text-decoration-line: none !important;" href="#anaconda%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83" aria-label="锚点">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>再anaconda prompt终端输入conda env create -f environment.yml，就可以根据environment.yml文件创建虚拟环境，创建好后，通过conda env list查看环境是否存在，如下图所示就表明创建成功：</p>
 <p>
   <figure>
@@ -840,7 +865,7 @@
 <p>如果安装的时候出现torch相关的错误，大概率是你的显卡驱动和这里面的torch包版本不匹配，这个问题需要自行修改即可，网上关于这方面的资料很多。</p>
 
 
-<h2 class="relative group">使用虚拟环境 
+<h3 class="relative group">使用虚拟环境 
     <div id="%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83" class="anchor"></div>
     
     <span
@@ -849,12 +874,12 @@
             style="text-decoration-line: none !important;" href="#%E4%BD%BF%E7%94%A8%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83" aria-label="锚点">#</a>
     </span>        
     
-</h2>
+</h3>
 <p>虚拟环境创建完成之后，就可以在pycharm中使用，点击右下角，切换conda环境，选择刚才创建的虚拟环境。如果到了这一步还没有报错的话，恭喜你，已经完成了80%的工作。</p>
 <p>运行Detect.py脚本，测试检测效果，如果没有报错，接下来就是训练模型。</p>
 
 
-<h1 class="relative group">训练脚本train.py 
+<h2 class="relative group">训练脚本train.py 
     <div id="%E8%AE%AD%E7%BB%83%E8%84%9A%E6%9C%ACtrainpy" class="anchor"></div>
     
     <span
@@ -863,7 +888,7 @@
             style="text-decoration-line: none !important;" href="#%E8%AE%AD%E7%BB%83%E8%84%9A%E6%9C%ACtrainpy" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>找到根目录的train.py文件，注释已经写的很清楚，如下图：</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">warnings</span>
 </span></span><span class="line"><span class="cl"><span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s1">&#39;ignore&#39;</span><span class="p">)</span>
@@ -907,7 +932,7 @@
 </span></span></code></pre></div><p>同理，把best.pt换成你自己训练好的模型，source里面输入检测图片的路径，运行该脚本就可以开始检测，结果保存在runs/detect目录。</p>
 
 
-<h1 class="relative group">开始训练 
+<h2 class="relative group">开始训练 
     <div id="%E5%BC%80%E5%A7%8B%E8%AE%AD%E7%BB%83" class="anchor"></div>
     
     <span
@@ -916,7 +941,7 @@
             style="text-decoration-line: none !important;" href="#%E5%BC%80%E5%A7%8B%E8%AE%AD%E7%BB%83" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p>准备好数据集，最好是yolo格式的，我的数据集项目里自带了，不需要重新下载：</p>
 <img src="https://yangyang666.oss-cn-chengdu.aliyuncs.com/typoraImages/Snipaste_2024-05-23_15-55-44.png" style="zoom:67%;" />
 <p>datasets目录里面就是我的数据集：有train，test，valid三个目录，分别存放训练集，测试集和验证集的图像和标签：</p>
@@ -935,7 +960,7 @@
 <p>准备这些之后，运行train.py文件，开始训练。如果报错的话，请自行上网查找，无非就是找不到数据集，某个包的版本不对，或者是GPU用不了，只能用CPU。</p>
 
 
-<h1 class="relative group">训练结果 
+<h2 class="relative group">训练结果 
     <div id="%E8%AE%AD%E7%BB%83%E7%BB%93%E6%9E%9C" class="anchor"></div>
     
     <span
@@ -944,7 +969,7 @@
             style="text-decoration-line: none !important;" href="#%E8%AE%AD%E7%BB%83%E7%BB%93%E6%9E%9C" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <blockquote>
 <p>训练结果会保存在runs/train目录下，exp1,exp2,exp3的顺序，表示每一次的训练结果。</p>
 </blockquote>
@@ -963,7 +988,7 @@
 </p>
 
 
-<h1 class="relative group">总结 
+<h2 class="relative group">总结 
     <div id="%E6%80%BB%E7%BB%93" class="anchor"></div>
     
     <span
@@ -972,11 +997,11 @@
             style="text-decoration-line: none !important;" href="#%E6%80%BB%E7%BB%93" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p><strong>整个项目的改进工作我已经做好，复现的话只需装好对应的环境，修改train.py的参数，运行train.py就可以开始训练；修改Detect.py的参数，就可以检测。目前项目只针对检测任务，对于分割和分类没有做改进。</strong></p>
 
 
-<h1 class="relative group">经验之谈 
+<h2 class="relative group">经验之谈 
     <div id="%E7%BB%8F%E9%AA%8C%E4%B9%8B%E8%B0%88" class="anchor"></div>
     
     <span
@@ -985,7 +1010,7 @@
             style="text-decoration-line: none !important;" href="#%E7%BB%8F%E9%AA%8C%E4%B9%8B%E8%B0%88" aria-label="锚点">#</a>
     </span>        
     
-</h1>
+</h2>
 <p><strong>（1）以下为两个重要库的版本，必须对应下载，否则会报错</strong></p>
 <blockquote>
 <p>python == 3.9.7
@@ -1001,7 +1026,7 @@ https://download.openmmlab.com/mmcv/dist/index.html
 <p><strong>（3）basicsr安装失败原因,通过pip install basicsr 下载如果失败,大家可以去百度搜一下如何换下载镜像源就可以修复</strong></p>
 
 
-<h2 class="relative group">针对一些报错的解决办法在这里说一下 
+<h3 class="relative group">针对一些报错的解决办法在这里说一下 
     <div id="%E9%92%88%E5%AF%B9%E4%B8%80%E4%BA%9B%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E5%9C%A8%E8%BF%99%E9%87%8C%E8%AF%B4%E4%B8%80%E4%B8%8B" class="anchor"></div>
     
     <span
@@ -1010,7 +1035,7 @@ https://download.openmmlab.com/mmcv/dist/index.html
             style="text-decoration-line: none !important;" href="#%E9%92%88%E5%AF%B9%E4%B8%80%E4%BA%9B%E6%8A%A5%E9%94%99%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95%E5%9C%A8%E8%BF%99%E9%87%8C%E8%AF%B4%E4%B8%80%E4%B8%8B" aria-label="锚点">#</a>
     </span>        
     
-</h2>
+</h3>
 <p><strong>(1)训练过程中loss出现Nan值.</strong>
 可以尝试关闭AMP混合精度训练.</p>
 <p><strong>(2)多卡训练问题,修改模型以后不能支持多卡训练可以尝试下面的两行命令行操作，两个是不同的操作，是代表不同的版本现尝试第一个不行用第二个</strong></p>
@@ -1104,7 +1129,7 @@ python -m torch.distributed.launch --nproc_per_node 2 train.py
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="https://toupyo.github.io/"
+  data-url="http://localhost:1313/"
   style="z-index:500"
 >
   <div

@@ -41,13 +41,13 @@ smartTOCHideUnfocusedChildren = false
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/ziling.jpeg" # used in: hero, and card
-  showRecent = false
+  showRecent = true
   showRecentItems = 6
-  showMoreLink = false
+  showMoreLink = true
   showMoreLinkDest = "docs"
   cardView = false
   cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+  layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
   showDate = true
@@ -56,7 +56,7 @@ smartTOCHideUnfocusedChildren = false
   showDateOnlyInArticle = false
   showDateUpdated = true
   showAuthor = true
-  # showAuthorBottom = false
+  showAuthorBottom = true
   showHero = true
   heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background
@@ -65,7 +65,7 @@ smartTOCHideUnfocusedChildren = false
   showEdit = true
   editURL = "https://github.com/toupyo/blog/tree/main/content"
   editAppendPath = true
-  seriesOpened = false
+  seriesOpened = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
@@ -75,7 +75,7 @@ smartTOCHideUnfocusedChildren = false
   relatedContentLimit = 3
   showTaxonomies = true 
   showAuthorsBadges = true 
-  showWordCount = false
+  showWordCount = true
 #  sharingLinks = ["email"]
   showZenMode = true
 
