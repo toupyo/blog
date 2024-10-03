@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>安装 on WOOP</title>
+    <title>安装 on </title>
     <link>https://toupyo.github.io/tags/%E5%AE%89%E8%A3%85/</link>
-    <description>Recent content in 安装 on WOOP</description>
+    <description>Recent content in 安装 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 Louaq</copyright>
-    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>https://toupyo.github.io/docs/tree/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <title>安装文档</title>
+      <link>https://toupyo.github.io/docs/installation/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/tree/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/tree/featured.jpg" />
+      <guid>https://toupyo.github.io/docs/installation/</guid>
+      <description>说明文档 # 这篇文档主要介绍《基于YOLOv8的农田病虫害检测</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/installation/featured.jpeg" />
     </item>
     
   </channel>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>主页 on WOOP</title>
+    <title>主页 on </title>
     <link>https://toupyo.github.io/</link>
-    <description>Recent content in 主页 on WOOP</description>
+    <description>Recent content in 主页 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 Louaq</copyright>
+    <copyright>© 2024 </copyright>
     <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>n9o.xyz</title>
@@ -19,12 +19,82 @@
     </item>
     
     <item>
-      <title>test</title>
+      <title>FPS的计算</title>
+      <link>https://toupyo.github.io/docs/yolov9/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/yolov9/</guid>
+      <description>一、本文介绍 # 本文给大家带来的改进机制是利用我们训练好的权重</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/yolov9/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>YOLOv8简介</title>
+      <link>https://toupyo.github.io/docs/alexnet/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/alexnet/</guid>
+      <description>一、YOLOv8的简介 # YOLO（You Only Look Once）系列算</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/alexnet/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>YOLOv8目录结构</title>
+      <link>https://toupyo.github.io/docs/hazaed/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/hazaed/</guid>
+      <description>一、本文介绍 # Hello，大家好这次给大家带来的不是改进，是</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/hazaed/featured.png" />
+    </item>
+    
+    <item>
+      <title>YOLOv8文件分析</title>
+      <link>https://toupyo.github.io/docs/rcnn/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/rcnn/</guid>
+      <description>一、本文介绍 # 本文给大家带来的是YOLOv8项目的解读，之前</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/rcnn/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>安装文档</title>
+      <link>https://toupyo.github.io/docs/installation/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/installation/</guid>
+      <description>说明文档 # 这篇文档主要介绍《基于YOLOv8的农田病虫害检测</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/installation/featured.jpeg" />
+    </item>
+    
+    <item>
+      <title>恒源云</title>
+      <link>https://toupyo.github.io/docs/fast-rcnn/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/fast-rcnn/</guid>
+      <description>恒源云 # 为当涉及到深度学习的训练任务时，GPU的计算能力是不</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/fast-rcnn/featured.png" />
+    </item>
+    
+    <item>
+      <title>评估</title>
+      <link>https://toupyo.github.io/docs/zhttr/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/zhttr/</guid>
+      <description>一、简介 # 这篇博客，主要给大家讲解我们在训练yolov8时生</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/zhttr/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>热力图分析</title>
       <link>https://toupyo.github.io/docs/tree/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://toupyo.github.io/docs/tree/</guid>
-      <description></description>
+      <description>一、本文介绍 # 本文给大家带来的机制是集成了YOLOv8最新版</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/tree/featured.jpg" />
     </item>
     

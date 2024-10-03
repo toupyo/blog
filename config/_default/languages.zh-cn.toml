@@ -1,21 +1,21 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
 weight = 4
-title = "WOOP"
+title = ""
 
 [params]
   displayName = "简体中文"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/blowfish_logo.png"
+  logo = ""
   description = "一个强大、轻量级的 Hugo 主题。"
 
 [author]
-  name = "Louaq"
-  image = "img/blowfish_logo.png"
-  headline = "最是人间留不住，朱颜辞镜花辞树"
-  bio = "最是人间留不住，朱颜辞镜花辞树"
+#  name = "Louaq"
+  image = "img/b.jpg"
+#  headline = "最是人间留不住，朱颜辞镜花辞树"
+#  bio = "最是人间留不住，朱颜辞镜花辞树"
   links = [
     { github = "https://github.com/Louaq" },
   ]

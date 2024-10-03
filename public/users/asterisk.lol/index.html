@@ -8,8 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>asterisk.lol &middot; WOOP</title>
-  <meta name="title" content="asterisk.lol &middot; WOOP" />
+  <title>asterisk.lol &middot; </title>
+  <meta name="title" content="asterisk.lol &middot; " />
   
   <meta name="description" content="一个强大、轻量级的 Hugo 主题。" />
   <meta name="keywords" content="博客, 个人网站, " />
@@ -65,7 +65,6 @@
   
   
   <meta property="og:url" content="https://toupyo.github.io/users/asterisk.lol/">
-  <meta property="og:site_name" content="WOOP">
   <meta property="og:title" content="asterisk.lol">
   <meta property="og:description" content="一个强大、轻量级的 Hugo 主题。">
   <meta property="og:locale" content="zh_cn">
@@ -95,7 +94,7 @@
     "url" : "https:\/\/toupyo.github.io\/users\/asterisk.lol\/",
     "author" : {
       "@type": "Person",
-      "name": "Louaq"
+      "name": ""
     },
     
     
@@ -113,7 +112,6 @@
 
   
   
-  <meta name="author" content="Louaq" />
   
   
   
@@ -165,6 +163,29 @@
   <meta name="theme-color"/>
   
   
+  
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyAiMLH_DoLBxUdq0tfktmSzI6nk-TPS0RM",
+      authDomain: "AIzaSyAiMLH_DoLBxUdq0tfktmSzI6nk-TPS0RM",
+      projectId: "hugo-blog-98459",
+      storageBucket: "hugo-blog-98459.appspot.com",
+      messagingSenderId: "415365188759",
+      appId: "1:415365188759:web:2cc10415f9d4121b9e6dd2",
+      measurementId: "G-XD5J45WQNC"
+    };
+
+    var app = firebase.initializeApp(firebaseConfig);
+    var db = firebase.firestore();
+    var auth = firebase.auth();
+
+  </script>
+  
+  
 </head>
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
@@ -183,25 +204,11 @@
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
-    
-    
-    <div>
-        <a href="/" class="flex">
-            <span class="sr-only">WOOP</span>
-
-            
-            <img src="/img/blowfish_logo.png" width="1000" height="1000"
-                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="WOOP" />
-            
-
-        </a>
-    </div>
-    
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
             
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">WOOP</a>
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"></a>
             
 
         </nav>
@@ -1250,7 +1257,7 @@
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
       &copy;
       2024
-      Louaq
+      
     </p>
     
 

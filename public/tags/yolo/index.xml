@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YOLO on </title>
+    <link>https://toupyo.github.io/tags/yolo/</link>
+    <description>Recent content in YOLO on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/yolo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>YOLOv8简介</title>
+      <link>https://toupyo.github.io/docs/alexnet/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/alexnet/</guid>
+      <description>一、YOLOv8的简介 # YOLO（You Only Look Once）系列算</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/alexnet/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>安装文档</title>
+      <link>https://toupyo.github.io/docs/installation/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/docs/installation/</guid>
+      <description>说明文档 # 这篇文档主要介绍《基于YOLOv8的农田病虫害检测</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/installation/featured.jpeg" />
+    </item>
+    
+  </channel>
+</rss>

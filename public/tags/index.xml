@@ -1,17 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>标签 on WOOP</title>
+    <title>标签 on </title>
     <link>https://toupyo.github.io/tags/</link>
-    <description>Recent content in 标签 on WOOP</description>
+    <description>Recent content in 标签 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <copyright>© 2024 Louaq</copyright>
-    <lastBuildDate>Wed, 02 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CNN</title>
+      <link>https://toupyo.github.io/tags/cnn/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/cnn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>FPS</title>
+      <link>https://toupyo.github.io/tags/fps/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/fps/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GPU</title>
+      <link>https://toupyo.github.io/tags/gpu/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/gpu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Yaml</title>
+      <link>https://toupyo.github.io/tags/yaml/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/yaml/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>YOLO</title>
+      <link>https://toupyo.github.io/tags/yolo/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/yolo/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>YOLOv8</title>
+      <link>https://toupyo.github.io/tags/yolov8/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/yolov8/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>安装</title>
       <link>https://toupyo.github.io/tags/%E5%AE%89%E8%A3%85/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://toupyo.github.io/tags/%E5%AE%89%E8%A3%85/</guid>
       <description></description>
@@ -19,9 +79,39 @@
     </item>
     
     <item>
+      <title>评估</title>
+      <link>https://toupyo.github.io/tags/%E8%AF%84%E4%BC%B0/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/%E8%AF%84%E4%BC%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>评估指标</title>
+      <link>https://toupyo.github.io/tags/%E8%AF%84%E4%BC%B0%E6%8C%87%E6%A0%87/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/%E8%AF%84%E4%BC%B0%E6%8C%87%E6%A0%87/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>热力图</title>
+      <link>https://toupyo.github.io/tags/%E7%83%AD%E5%8A%9B%E5%9B%BE/</link>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://toupyo.github.io/tags/%E7%83%AD%E5%8A%9B%E5%9B%BE/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>文档</title>
       <link>https://toupyo.github.io/tags/%E6%96%87%E6%A1%A3/</link>
-      <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>https://toupyo.github.io/tags/%E6%96%87%E6%A1%A3/</guid>
       <description></description>
