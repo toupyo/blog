@@ -1,14 +1,14 @@
 languageCode = "zh-cn"
 languageName = "简体中文"
 weight = 4
-title = ""
+title = "Louaq"
 
 [params]
   displayName = "简体中文"
   isoCode = "zh-cn"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = ""
+  logo = "img/b-modified.png"
   description = "一个强大、轻量级的 Hugo 主题。"
 
 [author]

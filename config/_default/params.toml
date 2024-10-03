@@ -22,7 +22,7 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
+defaultBackgroundImage = "/img/ziling.jpeg"
 defaultFeaturedImage = "/img/featured.svg"
 
 highlightCurrentMenuArea = true

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>FPS on </title>
-    <link>https://toupyo.github.io/tags/fps/</link>
-    <description>Recent content in FPS on </description>
+    <title>FPS on Louaq</title>
+    <link>http://localhost:1313/tags/fps/</link>
+    <description>Recent content in FPS on Louaq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>© 2024 </copyright>
-    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://toupyo.github.io/tags/fps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/fps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FPS的计算</title>
-      <link>https://toupyo.github.io/docs/yolov9/</link>
+      <link>http://localhost:1313/docs/yolov9/</link>
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://toupyo.github.io/docs/yolov9/</guid>
+      <guid>http://localhost:1313/docs/yolov9/</guid>
       <description>一、本文介绍 # 本文给大家带来的改进机制是利用我们训练好的权重</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://toupyo.github.io/docs/yolov9/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/yolov9/featured.jpg" />
     </item>
     
   </channel>
