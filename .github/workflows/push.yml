@@ -1,22 +1,21 @@
-name: Push to Another Repository
+name: Push to GitHub
 
-# 313213131
 on:
- push:
-   branches:
-     - main
+  push:
+    branches:
+      - main
 
 jobs:
- build:
-   runs-on: ubuntu-latest
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-   steps:
-     - name: Checkout code
-       uses: actions/checkout@v2
-
-     - name: Push to another repository
-       env:
-         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-       run: |
-         git remote add target https://$ACCESS_TOKEN@github.com/Louaq/hugo.git
-         git push target HEAD:refs/heads/main 
+      - name: Push changes
+        run: |
+          git remote add target https://$ACCESS_TOKEN@github.com/Louaq/hugo.git
+          git push target HEAD:refs/heads/main
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+ 
