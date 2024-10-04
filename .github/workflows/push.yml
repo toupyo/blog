@@ -19,13 +19,4 @@ jobs:
          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
        run: |
          git remote add target https://$ACCESS_TOKEN@github.com/Louaq/hugo.git
-         git push target HEAD:refs/heads/main
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
-		 
+         git push target HEAD:refs/heads/main 
