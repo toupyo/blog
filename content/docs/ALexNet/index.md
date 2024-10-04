@@ -5,6 +5,7 @@ weight: 2
 draft: false
 description: "简单介绍YOLOv8"
 tags: ["YOLO","CNN"]
+series: ["Documentation"]
 series_order: 2
 ---
 

@@ -5,7 +5,8 @@ weight: 2
 draft: false
 description: "安装环境"
 tags: ["安装", "文档", "YOLO"]
-series_order: 2
+series: ["Documentation"]
+series_order: 1
 ---
 
 ## 说明文档

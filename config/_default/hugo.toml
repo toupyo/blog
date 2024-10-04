@@ -67,3 +67,6 @@ googleAnalytics = "G-PEDMYR1V0K"
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+[services]
+  [services.disqus]
+    shortname = 'toupo'

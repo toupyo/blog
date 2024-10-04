@@ -5,7 +5,8 @@ weight: 2
 draft: false
 description: "在线炼丹平台"
 tags: ["GPU"]
-series_order: 2
+series: ["Documentation"]
+series_order: 3
 ---
 
  ## 恒源云

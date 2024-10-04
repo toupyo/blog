@@ -12,10 +12,10 @@ title = "Louaq"
   description = "一个强大、轻量级的 Hugo 主题。"
 
 [author]
-#  name = "Louaq"
+  name = "Louaq"
   image = "img/b.jpg"
-#  headline = "最是人间留不住，朱颜辞镜花辞树"
-#  bio = "最是人间留不住，朱颜辞镜花辞树"
+  headline = "最是人间留不住，朱颜辞镜花辞树"
+  bio = "最是人间留不住，朱颜辞镜花辞树"
   links = [
     { github = "https://github.com/Louaq" },
   ]
