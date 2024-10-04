@@ -96,7 +96,7 @@
     "name": "YOLOv8简介",
     "headline": "YOLOv8简介",
     "description": "简单介绍YOLOv8",
-    "abstract": "一、YOLOv8的简介 # YOLO（You Only Look Once）系列算",
+    "abstract": "一、YOLOv8的简介 YOLO（You Only Look Once）系列算法",
     "inLanguage": "zh-cn",
     "url" : "http:\/\/localhost:1313\/docs\/alexnet\/",
     "author" : {
@@ -112,7 +112,7 @@
     "keywords": ["YOLO","CNN"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "8424"
+    "wordCount": "8405"
   }]
   </script>
 
@@ -669,7 +669,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>8424 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">17 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>8405 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">17 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1068,12 +1068,6 @@
 <h2 class="relative group">一、YOLOv8的简介 
     <div id="%E4%B8%80yolov8%E7%9A%84%E7%AE%80%E4%BB%8B" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%80yolov8%E7%9A%84%E7%AE%80%E4%BB%8B" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>YOLO（You Only Look Once）系列算法因其高效、准确等特点而备受瞩目。由2023年Ultralytics公司发布了YOLO的<strong>最新版本YOLOv8是结合前几代YOLO的基础上的一个融合改进版</strong>。</p>
 <p>本文YOLOv8网络结构/环境搭建/数据集获取/训练/推理/验证/导出/部署，从网络结构的讲解从模型的网络结构讲解到模型的部署都有详细介绍，同时在本专栏中还包括YOLOv8模型系列的改进包<strong>括个人提出的创新点，传统卷积、注意力机制、损失函数的修改教程，能够帮助你的论文获得创新点。</strong></p>
@@ -1081,12 +1075,6 @@
 
 <h2 class="relative group">二、YOLOv8相对于Yolov5的核心改动 
     <div id="%E4%BA%8Cyolov8%E7%9B%B8%E5%AF%B9%E4%BA%8Eyolov5%E7%9A%84%E6%A0%B8%E5%BF%83%E6%94%B9%E5%8A%A8" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%8Cyolov8%E7%9B%B8%E5%AF%B9%E4%BA%8Eyolov5%E7%9A%84%E6%A0%B8%E5%BF%83%E6%94%B9%E5%8A%A8" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>
@@ -1129,12 +1117,6 @@
 <h2 class="relative group"><strong>三、YOLOv8的网络结构</strong> 
     <div id="%E4%B8%89yolov8%E7%9A%84%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%89yolov8%E7%9A%84%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>YOLOv8的网络结构主要由以下三个大部分组成：</p>
 <blockquote>
@@ -1155,12 +1137,6 @@
 
 <h4 class="relative group">3.1 Backbone 
     <div id="31-backbone" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#31-backbone" aria-label="锚点">#</a>
-    </span>        
     
 </h4>
 <p>由最上面的YOLOv8网络结构图我们可以看出在其中的Backbone部分，由5个卷积模块和4个C2f模块和一个SPPF模块组成，</p>
@@ -1190,12 +1166,6 @@
 <h5 class="relative group">3.1.1 卷积模块(Conv) 
     <div id="311-%E5%8D%B7%E7%A7%AF%E6%A8%A1%E5%9D%97conv" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#311-%E5%8D%B7%E7%A7%AF%E6%A8%A1%E5%9D%97conv" aria-label="锚点">#</a>
-    </span>        
-    
 </h5>
 <p>在其中卷积模块的结构主要为下图</p>
 <p>
@@ -1216,12 +1186,6 @@
 
 <h5 class="relative group"><strong>3.1.2 C2f模块</strong> 
     <div id="312-c2f%E6%A8%A1%E5%9D%97" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#312-c2f%E6%A8%A1%E5%9D%97" aria-label="锚点">#</a>
-    </span>        
     
 </h5>
 <p>在YOLOv8的网络结构中C2f模块算是YOLOv8的一个较大的改变，与YOLOv5的C3模块相比，C2f模块具有更少的参数量和更优秀的特征提取能力。<strong>下图为C2f的内部网络结构图。</strong></p>
@@ -1265,12 +1229,6 @@
 
 <h4 class="relative group">3.2 Neck  
     <div id="32-neck" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#32-neck" aria-label="锚点">#</a>
-    </span>        
     
 </h4>
 <p>YOLOv8的Neck部分是该模型中的一个关键组件，<strong>它在特征提取和融合方面起着重要作用</strong>。Neck的详细描述如下：</p>
@@ -1327,12 +1285,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <h4 class="relative group">3.3 Head 
     <div id="33-head" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#33-head" aria-label="锚点">#</a>
-    </span>        
-    
 </h4>
 <p>如果Backbone和Neck部分可以理解为准备工作，那么Head部分就是收获的部分，经过前面的准备工作我们得到了Neck部分的输出T1、T2、T3分别代表不同层级的特征图，<strong>Head部分就是对这三个特征图进行处理以产生模型的的输出结果的一个过程。</strong></p>
 <p>YOLOv8的Head部分我们先来看一下它的网络结构。</p>
@@ -1369,12 +1321,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <h2 class="relative group">四、环境搭建 
     <div id="%E5%9B%9B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%9B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>在我们配置好环境之后，在之后模型获取完成之后，我们可以进行配置的安装我们可以在命令行下输入如下命令进行环境的配置。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">.</span><span class="n">txt</span>
@@ -1383,12 +1329,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">五、数据集获取 
     <div id="%E4%BA%94%E6%95%B0%E6%8D%AE%E9%9B%86%E8%8E%B7%E5%8F%96" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%94%E6%95%B0%E6%8D%AE%E9%9B%86%E8%8E%B7%E5%8F%96" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>我在上面随便下载了一个 数据集用它导出yolov8的数据集，以及自动给转换成txt的格式yaml文件也已经配置好了，我们直接用就可以。 </p>
@@ -1403,12 +1343,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">六、模型获取 
     <div id="%E5%85%AD%E6%A8%A1%E5%9E%8B%E8%8E%B7%E5%8F%96" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%85%AD%E6%A8%A1%E5%9E%8B%E8%8E%B7%E5%8F%96" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>到这里假设你已经搭建好了环境和有了数据集，那么我们就可以进行模型的下载，因为yolov8目前还存在BUG并不稳定随时都有可能进行更新，所以不推荐大家通过其它的途径下载，最好通过下面的方式进行下载。</p>
@@ -1427,12 +1361,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">七、模型训练 
     <div id="%E4%B8%83%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%83%E6%A8%A1%E5%9E%8B%E8%AE%AD%E7%BB%83" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>我们来看一下主要的ultralytics目录结构，</p>
@@ -1563,23 +1491,11 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <h3 class="relative group">7.1 训练的三种方式 
     <div id="71-%E8%AE%AD%E7%BB%83%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#71-%E8%AE%AD%E7%BB%83%E7%9A%84%E4%B8%89%E7%A7%8D%E6%96%B9%E5%BC%8F" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 
 
 <h4 class="relative group">7.1.1 方式一 
     <div id="711-%E6%96%B9%E5%BC%8F%E4%B8%80" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#711-%E6%96%B9%E5%BC%8F%E4%B8%80" aria-label="锚点">#</a>
-    </span>        
     
 </h4>
 <p>我们可以通过命令直接进行训练在其中指定参数，但是这样的方式，我们每个参数都要在其中打出来。命令如下:</p>
@@ -1590,12 +1506,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <h4 class="relative group"><strong>7.1.2 方式二（推荐）</strong> 
     <div id="712-%E6%96%B9%E5%BC%8F%E4%BA%8C%E6%8E%A8%E8%8D%90" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#712-%E6%96%B9%E5%BC%8F%E4%BA%8C%E6%8E%A8%E8%8D%90" aria-label="锚点">#</a>
-    </span>        
-    
 </h4>
 <p>通过指定cfg直接进行训练，我们配置好ultralytics/cfg/default.yaml这个文件之后，可以直接执行这个文件进行训练，这样就不用在命令行输入其它的参数了。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">yolo</span> <span class="n">cfg</span><span class="o">=</span><span class="n">ultralytics</span><span class="o">/</span><span class="n">cfg</span><span class="o">/</span><span class="n">default</span><span class="o">.</span><span class="n">yaml</span>
@@ -1603,12 +1513,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h4 class="relative group"><strong>7.1.3 方式三</strong>  
     <div id="713-%E6%96%B9%E5%BC%8F%E4%B8%89" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#713-%E6%96%B9%E5%BC%8F%E4%B8%89" aria-label="锚点">#</a>
-    </span>        
     
 </h4>
 <p> 我们可以通过创建py文件来进行训练，这样的好处就是不用在终端上打命令，这也能省去一些工作量，我们在根目录下创建一个名字为run.py的文件，在其中输入代码</p>
@@ -1625,12 +1529,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">八、模型验证/测试  
     <div id="%E5%85%AB%E6%A8%A1%E5%9E%8B%E9%AA%8C%E8%AF%81%E6%B5%8B%E8%AF%95" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%85%AB%E6%A8%A1%E5%9E%8B%E9%AA%8C%E8%AF%81%E6%B5%8B%E8%AF%95" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <table>
@@ -1712,12 +1610,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">九、模型推理 
     <div id="%E4%B9%9D%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B9%9D%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>我们训练好自己的模型之后，都会生成一个模型文件,保存在你设置的目录下,当我们再次想要实验该模型的效果之后就可以调用该模型进行推理了，我们也可以用官方的预训练权重来进行推理。</p>
@@ -1857,12 +1749,6 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 
 <h2 class="relative group">十、模型输出 
     <div id="%E5%8D%81%E6%A8%A1%E5%9E%8B%E8%BE%93%E5%87%BA" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%8D%81%E6%A8%A1%E5%9E%8B%E8%BE%93%E5%87%BA" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>当我们进行部署的时候可以进行文件导出，然后在进行部署。</p>
@@ -2126,7 +2012,7 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>3098 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">7 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>3084 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">7 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -2313,7 +2199,7 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1765 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1762 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">4 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -2484,7 +2370,7 @@ Neck部分通常会使用上采样和下采样操作，以调整特征图的尺�
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1271 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1266 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     

@@ -14,7 +14,7 @@
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/hazaed/</guid>
-      <description>一、本文介绍 # Hello，大家好这次给大家带来的不是改进，是</description>
+      <description>一、本文介绍 Hello，大家好这次给大家带来的不是改进，是整</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/hazaed/featured.png" />
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/rcnn/</guid>
-      <description>一、本文介绍 # 本文给大家带来的是YOLOv8项目的解读，之前</description>
+      <description>一、本文介绍 本文给大家带来的是YOLOv8项目的解读，之前给</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/rcnn/featured.jpg" />
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/docs/zhttr/</guid>
-      <description>一、简介 # 这篇博客，主要给大家讲解我们在训练yolov8时生</description>
+      <description>一、简介 这篇博客，主要给大家讲解我们在训练yolov8时生成</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/docs/zhttr/featured.jpg" />
     </item>
     

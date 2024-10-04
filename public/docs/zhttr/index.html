@@ -94,7 +94,7 @@
     "name": "评估",
     "headline": "评估",
     "description": "评估指标",
-    "abstract": "一、简介 # 这篇博客，主要给大家讲解我们在训练yolov8时生",
+    "abstract": "一、简介 这篇博客，主要给大家讲解我们在训练yolov8时生成",
     "inLanguage": "zh-cn",
     "url" : "http:\/\/localhost:1313\/docs\/zhttr\/",
     "author" : {
@@ -110,7 +110,7 @@
     "keywords": ["YOLOv8","评估"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "4405"
+    "wordCount": "4387"
   }]
   </script>
 
@@ -667,7 +667,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4405 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">9 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4387 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">9 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1011,12 +1011,6 @@
 <h2 class="relative group">一、简介 
     <div id="%E4%B8%80%E7%AE%80%E4%BB%8B" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%80%E7%AE%80%E4%BB%8B" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>这篇博客，<strong>主要给大家讲解我们在训练yolov8时生成的结果文件中各个图片及其中指标的含义</strong>，帮助大家更深入的理解，以及我们在评估模型时和发表论文时主要关注的参数有那些。本文通过举例训练过程中的某一时间的结果来帮助大家理解，大家阅读过程中如有任何问题可以在评论区提问出来，我会帮助大家解答。首先我们来看一个在一次训练完成之后都能生成多少个文件如下图所示，下面的文章讲解都会围绕这个结果文件来介绍。</p>
 <p>
@@ -1031,12 +1025,6 @@
 <h2 class="relative group"><strong>二、评估用的数据集</strong>  
     <div id="%E4%BA%8C%E8%AF%84%E4%BC%B0%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%8C%E8%AF%84%E4%BC%B0%E7%94%A8%E7%9A%84%E6%95%B0%E6%8D%AE%E9%9B%86" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <blockquote>
 <p>上面的训练结果，是根据一个检测飞机的数据集训练得来，其中只有个标签就是飞机，对于这种单标签的数据集，其实我们可以将其理解为一个二分类任务，</p>
@@ -1048,24 +1036,12 @@
 <h2 class="relative group">三、结果分析  
     <div id="%E4%B8%89%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%89%E7%BB%93%E6%9E%9C%E5%88%86%E6%9E%90" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>我们可以从结果文件中看到其中<strong>共有文件24个</strong>，后12张图片是根据我们训练过程中的一些检测结果图片，用于我们可以观察检测结果，有哪些被检测出来了，那些没有被检测出来，其不作为指标评估的文件。         </p>
 
 
 <h3 class="relative group">Weights文件夹 
     <div id="weights%E6%96%87%E4%BB%B6%E5%A4%B9" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#weights%E6%96%87%E4%BB%B6%E5%A4%B9" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>我们先从第一个weights文件夹来分析，其中有两个文件，分别是<strong>best.pt、last.pt</strong>,其分别为训练过程中的损失最低的结果和模型训练的最后一次结果保存的模型。</p>
@@ -1080,12 +1056,6 @@
 <h3 class="relative group">args.yaml 
     <div id="argsyaml" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#argsyaml" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>第二个文件是args.yaml文件,其中主要保存一些我们训练时指定的参数，内容如下所示。</p>
 <p>
@@ -1098,12 +1068,6 @@
 
 <h3 class="relative group">混淆矩阵(ConfusionMatrix) 
     <div id="%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5confusionmatrix" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5confusionmatrix" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>第三个文件就是混淆矩阵，大家都应该听过这个名字，其是一种用于评估分类模型性能的表格形式。它以实际类别（真实值）和模型预测类别为基础，将样本分类结果进行统计和汇总。</p>
@@ -1142,12 +1106,6 @@
 <h3 class="relative group">混淆矩阵归一化(Confusion Matrix Normal) 
     <div id="%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5%E5%BD%92%E4%B8%80%E5%8C%96confusion-matrix-normal" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E6%B7%B7%E6%B7%86%E7%9F%A9%E9%98%B5%E5%BD%92%E4%B8%80%E5%8C%96confusion-matrix-normal" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>这个混淆矩阵的归一化，就是对混淆矩阵做了一个归一化处理，对混淆矩阵进行归一化可以将每个单元格的值除以该类别实际样本数，从而得到表示分类准确率的百分比。这种标准化使得我们可以直观地比较类别间的分类准确率，并识别出模型在哪些类别上表现较好或较差。</p>
 <p>
@@ -1161,12 +1119,6 @@
 
 <h3 class="relative group"><strong>计算mAP、Precision、Recall</strong> 
     <div id="%E8%AE%A1%E7%AE%97mapprecisionrecall" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E8%AE%A1%E7%AE%97mapprecisionrecall" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>在讲解其它的图片之前我们需要来计算三个比较重要的参数，这是其它图片的基础，这里的计算还是利用上面的某一批次举例的分析结果。</p>
@@ -1215,12 +1167,6 @@
 <h3 class="relative group">F1_Curve  
     <div id="f1_curve" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#f1_curve" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>F1_Curve这个文件，我们点击去的图片的标题是F1-Confidence Curve它显示了在不同分类阈值下的F1值变化情况。</p>
 <p>
@@ -1236,12 +1182,6 @@
 
 <h3 class="relative group">Labels 
     <div id="labels" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#labels" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>
@@ -1262,12 +1202,6 @@
 <h3 class="relative group">labels_correlogram 
     <div id="labels_correlogram" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#labels_correlogram" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>labels_correlogram是一个在**机器学习领域中使用的术语，**它指的是一种图形，<strong>用于显示目标检测算法在训练过程中预测标签之间的相关性</strong>。</p>
 <p>具体来说，labels_correlogram是一张<strong>颜色矩阵图</strong>，它展示了训练集数据标签之间的相关性。它可以帮助我们理解目标检测算法在训练过程中的行为和表现，以及预测标签之间的相互影响。</p>
@@ -1284,12 +1218,6 @@
 <h3 class="relative group">P_curve  
     <div id="p_curve" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#p_curve" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>这个图的分析和F1_Curve一样，不同的是关于的是Precision和Confidence之间的关系，<strong>可以看出我们随着置信度的越来越高检测的准确率按理来说是越来越高的。</strong> </p>
 <p>
@@ -1303,12 +1231,6 @@
 <h3 class="relative group">R_curve  
     <div id="r_curve" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#r_curve" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>这个图的分析和F1_Curve一样，不同的是关于的是Recall和Confidence之间的关系，<strong>可以看出我们随着置信度的越来越高召回率的准确率按理来说是越来越低的。</strong> </p>
 <p>
@@ -1321,12 +1243,6 @@
 
 <h3 class="relative group">PR_curve 
     <div id="pr_curve" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#pr_curve" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>它显示了在不同分类阈值下模型的精确度（Precision）和召回率（Recall）之间的关系。</p>
@@ -1347,12 +1263,6 @@
 <h3 class="relative group">results.csv 
     <div id="resultscsv" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#resultscsv" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>results.csv记录了一些我们训练过程中的参数信息，包括损失和学习率等，这里没有什么需要理解大家可以看一看，我们后面的results图片就是根据这个文件绘画出来的。</p>
 
@@ -1364,12 +1274,6 @@
   </figure>
 results 
     <div id="httpsyangyang666oss-cn-chengdualiyuncscomtyporaimages9af828676f704aada0b9b18797ba75cepngresults" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#httpsyangyang666oss-cn-chengdualiyuncscomtyporaimages9af828676f704aada0b9b18797ba75cepngresults" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>这个图片就是生成结果的最后一个了，我们可以看出其中标注了许多小的图片包括训练过程在的各种损失，我们主要看的其实就是后面的四幅图mAP50、mAP50-95、metrics/precision、metrics/recall四张图片。 </p>
@@ -1392,12 +1296,6 @@ results
 <h3 class="relative group">检测效果图 
     <div id="%E6%A3%80%E6%B5%8B%E6%95%88%E6%9E%9C%E5%9B%BE" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E6%A3%80%E6%B5%8B%E6%95%88%E6%9E%9C%E5%9B%BE" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p> 最后的十四张图片就是检测效果图了，给大家看一下这里没什么好讲解的了。</p>
 <p>
@@ -1411,12 +1309,6 @@ results
 
 <h2 class="relative group">四、其它参数 
     <div id="%E5%9B%9B%E5%85%B6%E5%AE%83%E5%8F%82%E6%95%B0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%9B%E5%85%B6%E5%AE%83%E5%8F%82%E6%95%B0" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>FPS和IoU是目标检测领域中使用的两个重要指标，分别表示每秒处理的图片数量和交并比。</p>
@@ -1571,7 +1463,7 @@ results
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>6538 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">14 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>6530 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">14 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1750,7 +1642,7 @@ results
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4941 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">10 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4921 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">10 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1921,7 +1813,7 @@ results
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1271 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1266 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     

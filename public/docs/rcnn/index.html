@@ -94,7 +94,7 @@
     "name": "YOLOv8文件分析",
     "headline": "YOLOv8文件分析",
     "description": "yaml文件分析和重写",
-    "abstract": "一、本文介绍 # 本文给大家带来的是YOLOv8项目的解读，之前",
+    "abstract": "一、本文介绍 本文给大家带来的是YOLOv8项目的解读，之前给",
     "inLanguage": "zh-cn",
     "url" : "http:\/\/localhost:1313\/docs\/rcnn\/",
     "author" : {
@@ -110,7 +110,7 @@
     "keywords": ["yaml","YOLOv8"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "6538"
+    "wordCount": "6530"
   }]
   </script>
 
@@ -667,7 +667,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>6538 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">14 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>6530 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">14 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -991,12 +991,6 @@
 <h2 class="relative group">一、本文介绍 
     <div id="%E4%B8%80%E6%9C%AC%E6%96%87%E4%BB%8B%E7%BB%8D" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%80%E6%9C%AC%E6%96%87%E4%BB%8B%E7%BB%8D" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>本文给大家带来的是<strong>YOLOv8项目的解读</strong>，之前给大家分析了YOLOv8的项目文件分析，这一篇文章给大家带来的是模型训练从我们的yaml文件定义到模型的定义部分的讲解，我们一般只知道如何去训练模型，和配置yaml文件，但是对于yaml文件是如何输入到模型里，模型如何将yaml文件解析出来的确是不知道的，本文的内容接上一篇的代码逐行解析(一) 项目目录分析，本文对于小白来说非常友好，非常推荐大家进行阅读，深度的了解模型的工作原理已经流程，下面我们从yaml文件来讲解。</p>
 <p>本文的讲解全部在代码的对应位置进行注释介绍非常详细，<strong>以下为部分内容的截图。</strong></p>
@@ -1017,12 +1011,6 @@
 
 <h2 class="relative group">二、yaml文件的定义 
     <div id="%E4%BA%8Cyaml%E6%96%87%E4%BB%B6%E7%9A%84%E5%AE%9A%E4%B9%89" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%BA%8Cyaml%E6%96%87%E4%BB%B6%E7%9A%84%E5%AE%9A%E4%B9%89" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>我们训练模型的第一步是需要配置yaml文件，我们的讲解第一步也从yaml文件来开始讲解，YOLOv8的yaml文件存放在我们的如下目录内&rsquo;ultralytics/cfg/models/v8&rsquo;，在其中我们可以定义各种模型配置的文件组合不同的模块，我们拿最基础的YOLOv8yaml文件来讲解一下。</p>
@@ -1098,24 +1086,12 @@
 <h2 class="relative group">三、yaml文件的输入  
     <div id="%E4%B8%89yaml%E6%96%87%E4%BB%B6%E7%9A%84%E8%BE%93%E5%85%A5" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E4%B8%89yaml%E6%96%87%E4%BB%B6%E7%9A%84%E8%BE%93%E5%85%A5" aria-label="锚点">#</a>
-    </span>        
-    
 </h2>
 <p>上面我们解释了yaml文件中的参数含义，然后提供了一个结构图（其中能够获取到每个模块的详细结构，该结构图来源于官方）。然后我们下一步介绍当定义好了一个ymal文件其是如何传入到模型的内部的，模型的开始在哪里。</p>
 
 
 <h3 class="relative group">3.1 模型的定义 
     <div id="31-%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%AE%9A%E4%B9%89" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#31-%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%AE%9A%E4%B9%89" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>我们通过命令行的命令或者创建py文件运行模型之后，模型最开始的工作是模型的定义操作。模型存放于文件&rsquo;ultralytics/engine/model.py&rsquo;内部，首先需要通过&rsquo;__init__&lsquo;来定义模型的一些变量。</p>
@@ -1221,12 +1197,6 @@
 <h3 class="relative group">3.2 模型的训练  
     <div id="32-%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AE%AD%E7%BB%83" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#32-%E6%A8%A1%E5%9E%8B%E7%9A%84%E8%AE%AD%E7%BB%83" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>我们上面讲完了模型的定义，然后模型就会根据你指定的参数来进行调用对应的函数，比如我这里指定的是detect，和train，如下图所示，然后模型就会根据指定的参数进行对应任务的训练。</p>
 <p><strong>图片来源于文件&rsquo;ultralytics/cfg/default.yaml&rsquo; 截图。</strong></p>
@@ -1305,12 +1275,6 @@
 <h3 class="relative group">3.3 模型的网络结构打印 
     <div id="33%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E6%89%93%E5%8D%B0" class="anchor"></div>
     
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#33%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BD%91%E7%BB%9C%E7%BB%93%E6%9E%84%E6%89%93%E5%8D%B0" aria-label="锚点">#</a>
-    </span>        
-    
 </h3>
 <p>第三步比较重要的就是来到了&rsquo;ultralytics/nn/tasks.py&rsquo;（就是我们改进模型时候的那个文件）文化内的class DetectionModel(BaseModel):类中进行初始化和模型的定义工作。</p>
 <p>这里涉及到了模型的定义和校验工作（在模型的正式开始训练之前检测模型是否能够运行的工作！）。 </p>
@@ -1367,12 +1331,6 @@
 
 <h3 class="relative group">3.4 parse_model的解析 
     <div id="34-parse_model%E7%9A%84%E8%A7%A3%E6%9E%90" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#34-parse_model%E7%9A%84%E8%A7%A3%E6%9E%90" aria-label="锚点">#</a>
-    </span>        
     
 </h3>
 <p>这里涉及到yaml文件中模块的定义和，通道数放缩的地方，此处大家可以仔细看看比较重要涉及到模块的改动。</p>
@@ -1476,12 +1434,6 @@
 
 <h2 class="relative group">四、模型的结构打印 
     <div id="%E5%9B%9B%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%84%E6%89%93%E5%8D%B0" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#%E5%9B%9B%E6%A8%A1%E5%9E%8B%E7%9A%84%E7%BB%93%E6%9E%84%E6%89%93%E5%8D%B0" aria-label="锚点">#</a>
-    </span>        
     
 </h2>
 <p>经过上面的分析之后，我们就会打印了模型的结构，图片如下所示，然后到此本篇文章的分析就到这里了，剩下的下一篇文章讲解。</p>
@@ -1636,7 +1588,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4941 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">10 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4921 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">10 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1807,7 +1759,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4405 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">9 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>4387 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">9 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1986,7 +1938,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1271 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-10-03 00:00:00 &#43;0000 UTC">2024-10-03</time><span class="px-2 text-primary-500">&middot;</span><span>1266 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">3 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
