@@ -1,6 +1,6 @@
 name: Push to Another Repository
 
-# 触发条件，可根据需要进行调整
+# 
 on:
  push:
    branches:
